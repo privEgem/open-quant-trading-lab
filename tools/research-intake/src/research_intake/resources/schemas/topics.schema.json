@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": ["schema_version", "topics", "penalties"],
+  "properties": {
+    "schema_version": {"const": 1},
+    "topics": {
+      "type": "array", "minItems": 1,
+      "items": {
+        "type": "object", "required": ["id", "phrases"],
+        "properties": {
+          "id": {"type": "string", "pattern": "^[a-z0-9_]+$"},
+          "phrases": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "required": ["id", "text"],
+              "properties": {
+                "id": {"type": "string", "pattern": "^[a-z0-9_]+$"},
+                "text": {"type": "string", "minLength": 1}
+              },
+              "additionalProperties": false
+            }
+          },
+          "explicit_bonus": {"type": "boolean"}
+        }, "additionalProperties": false
+      }
+    },
+    "penalties": {
+      "type": "object",
+      "required": ["generic_ml_only", "proprietary_data", "unrelated_domain"],
+      "additionalProperties": false,
+      "properties": {
+        "generic_ml_only": {"$ref": "#/$defs/penalty"},
+        "proprietary_data": {"$ref": "#/$defs/penalty"},
+        "unrelated_domain": {"$ref": "#/$defs/penalty"}
+      }
+    }
+  },
+  "$defs": {
+    "penalty": {
+      "type": "object", "required": ["id", "phrases"],
+      "properties": {"id": {"type": "string", "minLength": 1}, "phrases": {"type": "array", "minItems": 1, "items": {"type": "string", "minLength": 1}}},
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}

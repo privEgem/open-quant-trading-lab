@@ -1,0 +1,111 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": ["schema", "version", "batch_id", "reviewer", "decisions"],
+  "properties": {
+    "schema": {"const": "human_review_batch"},
+    "version": {"const": 1},
+    "batch_id": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": ".*\\S.*"
+    },
+    "reviewer": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": ".*\\S.*"
+    },
+    "decisions": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "item_id",
+          "source_run_id",
+          "expected_current_status",
+          "status",
+          "review_basis",
+          "confidence",
+          "rationale",
+          "next_action",
+          "tags",
+          "reviewed_at",
+          "source_queue_sha256"
+        ],
+        "properties": {
+          "item_id": {
+            "type": "string",
+            "pattern": "^ri_[0-9a-f]{64}$"
+          },
+          "source_run_id": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": ".*\\S.*"
+          },
+          "item_version": {
+            "type": "string",
+            "pattern": "^v[0-9]+$"
+          },
+          "expected_current_status": {
+            "enum": [
+              "NEW",
+              "REVIEWING",
+              "KEEP_FOR_DEEP_REVIEW",
+              "EDUCATIONAL_ONLY",
+              "PARKED",
+              "REJECTED",
+              "DUPLICATE"
+            ]
+          },
+          "status": {
+            "enum": [
+              "REVIEWING",
+              "KEEP_FOR_DEEP_REVIEW",
+              "EDUCATIONAL_ONLY",
+              "PARKED",
+              "REJECTED",
+              "DUPLICATE"
+            ]
+          },
+          "review_basis": {
+            "enum": ["ABSTRACT_TRIAGE", "FULL_TEXT_REVIEW"]
+          },
+          "confidence": {
+            "enum": ["LOW", "MEDIUM", "HIGH"]
+          },
+          "rationale": {
+            "type": "string",
+            "minLength": 10,
+            "pattern": ".*\\S.*"
+          },
+          "next_action": {
+            "type": "string",
+            "minLength": 3,
+            "pattern": ".*\\S.*"
+          },
+          "tags": {
+            "type": "array",
+            "uniqueItems": true,
+            "items": {
+              "type": "string",
+              "minLength": 1,
+              "pattern": "^[a-z0-9]+(?:[._-][a-z0-9]+)*$"
+            }
+          },
+          "reviewed_at": {
+            "type": "string",
+            "format": "date-time",
+            "pattern": "Z$"
+          },
+          "source_queue_sha256": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{64}$"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

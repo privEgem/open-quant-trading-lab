@@ -1,0 +1,36 @@
+schema_version: 1
+application:
+  name: research-intake
+  version: 0.1.0
+  user_agent: research-intake/0.1.0
+policy:
+  request_timeout_seconds: 30
+  retry:
+    max_attempts: 3
+    base_delay_seconds: 2
+    retry_statuses: [429, 500, 502, 503, 504]
+  minimum_request_interval_seconds: 3
+  maximum_requests_per_run: 20
+  overlap_seconds: 86400
+  global_maximum_runtime_seconds: 600
+  global_maximum_items_per_run: 200
+sources:
+  - id: arxiv
+    enabled: true
+    access_method: arxiv_atom
+    endpoint: https://export.arxiv.org/api/query
+    collection:
+      metadata: true
+      abstracts: true
+      pdfs: false
+    queries:
+      - id: arxiv_core_qfin_tr
+        enabled: true
+        expression: cat:q-fin.TR
+        eligibility_mode: category_unconditional
+        maximum_results: 100
+      - id: arxiv_secondary_qfin_st_cp
+        enabled: true
+        expression: (cat:q-fin.ST OR cat:q-fin.CP)
+        eligibility_mode: topic_required
+        maximum_results: 100

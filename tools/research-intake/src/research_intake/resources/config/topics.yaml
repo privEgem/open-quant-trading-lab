@@ -1,0 +1,78 @@
+schema_version: 1
+topics:
+  - id: market_microstructure
+    phrases:
+      - {id: market_microstructure, text: market microstructure}
+      - {id: limit_order_book, text: limit order book}
+  - id: intraday_mean_reversion
+    phrases: [{id: intraday_mean_reversion, text: intraday mean reversion}]
+  - id: intraday_reversal
+    phrases: [{id: intraday_reversal, text: intraday reversal}]
+  - id: liquidity
+    phrases: [{id: liquidity, text: liquidity}]
+  - id: order_flow
+    phrases:
+      - {id: order_flow, text: order flow}
+      - {id: order_imbalance, text: order imbalance}
+  - id: bid_ask_spreads
+    phrases:
+      - {id: hyphenated_bid_ask_spread, text: bid-ask spread}
+      - {id: bid_ask_spread, text: bid ask spread}
+  - id: execution
+    phrases:
+      - {id: execution, text: execution}
+      - {id: market_impact, text: market impact}
+    explicit_bonus: true
+  - id: transaction_costs
+    phrases:
+      - {id: transaction_cost, text: transaction cost}
+      - {id: trading_cost, text: trading cost}
+    explicit_bonus: true
+  - id: slippage
+    phrases: [{id: slippage, text: slippage}]
+    explicit_bonus: true
+  - id: time_of_day_effects
+    phrases:
+      - {id: hyphenated_time_of_day, text: time-of-day}
+      - {id: time_of_day, text: time of day}
+  - id: etf_index_microstructure
+    phrases:
+      - {id: etf_microstructure, text: ETF microstructure}
+      - {id: index_microstructure, text: index microstructure}
+  - id: backtest_overfitting
+    phrases: [{id: backtest_overfitting, text: backtest overfitting}]
+    explicit_bonus: true
+  - id: selection_bias
+    phrases: [{id: selection_bias, text: selection bias}]
+    explicit_bonus: true
+  - id: data_leakage
+    phrases:
+      - {id: data_leakage, text: data leakage}
+      - {id: look_ahead_bias, text: look-ahead bias}
+    explicit_bonus: true
+  - id: out_of_sample
+    phrases:
+      - {id: hyphenated_out_of_sample, text: out-of-sample}
+      - {id: out_of_sample, text: out of sample}
+    explicit_bonus: true
+  - id: walk_forward
+    phrases:
+      - {id: hyphenated_walk_forward, text: walk-forward}
+      - {id: walk_forward, text: walk forward}
+    explicit_bonus: true
+  - id: multiple_testing
+    phrases: [{id: multiple_testing, text: multiple testing}]
+    explicit_bonus: true
+  - id: deflated_sharpe
+    phrases: [{id: deflated_sharpe_ratio, text: deflated Sharpe ratio}]
+    explicit_bonus: true
+penalties:
+  generic_ml_only:
+    id: penalty.generic_ml_only
+    phrases: [machine learning price prediction, deep learning price prediction]
+  proprietary_data:
+    id: penalty.proprietary_data
+    phrases: [proprietary dataset, confidential dataset, licensed proprietary data]
+  unrelated_domain:
+    id: penalty.unrelated_domain
+    phrases: [medical imaging, climate modeling, particle physics]

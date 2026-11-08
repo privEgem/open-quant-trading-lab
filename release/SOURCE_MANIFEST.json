@@ -1,0 +1,1280 @@
+{
+  "schema_version": 1,
+  "candidate": "0.1.0",
+  "publication_status": "LICENSED_SOURCE_RELEASE",
+  "private_source_identifiers": "intentionally excluded; exact references retained separately for private review",
+  "self_hash_policy": "Only release/SOURCE_MANIFEST.json excludes its own hash; the external complete SHA-256 inventory and both ZIP companions bind its exact bytes",
+  "technical_status": "VALIDATION_RECORDED",
+  "license": "MIT",
+  "copyright": "Copyright (c) 2026 privEgem",
+  "intended_repository": "privEgem/open-quant-trading-lab",
+  "publication_gates": [],
+  "files": [
+    {
+      "path": ".gitignore",
+      "sha256": "6a1626c829057b3d7f5356e6c23a849d9c5b0c0fab43a8ade00c70b1fc9f2ee9",
+      "hash_scope": "exact bytes",
+      "decision": "reworked",
+      "origin_component": "new-release-work",
+      "transformation": "New release-specific packaging/example/test/documentation/report; no raw private chat or empirical input",
+      "rights_decision": "OWNER_ATTESTED_MIT: owner attests, to the best of their knowledge, authority to publish and MIT-license included original/licensable material, with no known third-party, contributor, employer or contractual restrictions; no independent legal audit or rights grant over excluded material",
+      "security_decision": "Included in exact-tree secret/privacy/structural scan; see private review reports; no safety certification"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha256": "fc419538d8c2a3be4f2732446f040d48a31786225f6432c5a0ad51b12c78455e",
+      "hash_scope": "exact bytes",
+      "decision": "reworked",
+      "origin_component": "new-release-work",
+      "transformation": "New release-specific packaging/example/test/documentation/report; no raw private chat or empirical input",
+      "rights_decision": "OWNER_ATTESTED_MIT: owner attests, to the best of their knowledge, authority to publish and MIT-license included original/licensable material, with no known third-party, contributor, employer or contractual restrictions; no independent legal audit or rights grant over excluded material",
+      "security_decision": "Included in exact-tree secret/privacy/structural scan; see private review reports; no safety certification",
+      "finalization": "Remove resolved attestation gate and prepublication-only community condition"
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "0660b8f8ea822af74544b4991e0293f8bb2d0d03aa732cab1a5c83f1fe3bee4c",
+      "hash_scope": "exact bytes",
+      "decision": "reworked",
+      "origin_component": "new-release-work",
+      "transformation": "New release-specific packaging/example/test/documentation/report; no raw private chat or empirical input",
+      "rights_decision": "OWNER_ATTESTED_MIT: owner attests, to the best of their knowledge, authority to publish and MIT-license included original/licensable material, with no known third-party, contributor, employer or contractual restrictions; no independent legal audit or rights grant over excluded material",
+      "security_decision": "Included in exact-tree secret/privacy/structural scan; see private review reports; no safety certification",
+      "finalization": "Standard MIT text, Copyright (c) 2026 privEgem; owner-attested authority"
+    },
+    {
+      "path": "README.md",
+      "sha256": "dd8a627b582fde4102644f893b0384933376d533e60ab70a763b383a41070ef0",
+      "hash_scope": "exact bytes",
+      "decision": "reworked",
+      "origin_component": "new-release-work",
+      "transformation": "New release-specific packaging/example/test/documentation/report; no raw private chat or empirical input",
+      "rights_decision": "OWNER_ATTESTED_MIT: owner attests, to the best of their knowledge, authority to publish and MIT-license included original/licensable material, with no known third-party, contributor, employer or contractual restrictions; no independent legal audit or rights grant over excluded material",
+      "security_decision": "Included in exact-tree secret/privacy/structural scan; see private review reports; no safety certification",
+      "finalization": "Durable release/identity text and qualified owner-attested MIT scope"
+    },
+    {
+      "path": "SECURITY.md",
+      "sha256": "42c5abe46c48d1a27f5af6d29d57ba4769181edb571d3850a397622645fd0bc0",
+      "hash_scope": "exact bytes",
+      "decision": "reworked",
+      "origin_component": "new-release-work",
+      "transformation": "New release-specific packaging/example/test/documentation/report; no raw private chat or empirical input",
+      "rights_decision": "OWNER_ATTESTED_MIT: owner attests, to the best of their knowledge, authority to publish and MIT-license included original/licensable material, with no known third-party, contributor, employer or contractual restrictions; no independent legal audit or rights grant over excluded material",
+      "security_decision": "Included in exact-tree secret/privacy/structural scan; see private review reports; no safety certification",
+      "finalization": "Conditional verified private reporting; public issues warning; fail closed without private route"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "sha256": "1fd948e2e36ae6da67cfd9aa6384591e3c39cfac557287f19dd603c1175d47a1",
+      "hash_scope": "exact bytes",
+      "decision": "reworked",
+      "origin_component": "new-release-work",
+      "transformation": "New release-specific packaging/example/test/documentation/report; no raw private chat or empirical input",
+      "rights_decision": "OWNER_ATTESTED_MIT: owner attests, to the best of their knowledge, authority to publish and MIT-license included original/licensable material, with no known third-party, contributor, employer or contractual restrictions; no independent legal audit or rights grant over excluded material",
+      "security_decision": "Included in exact-tree secret/privacy/structural scan; see private review reports; no safety certification",
+      "finalization": "Record qualified owner attestation; preserve notices, citations and exclusions"
+    },
+    {
+      "path": "docs/AI_HANDOFF.md",
+      "sha256": "edef52fee927fd0455e7cb849cb23fd5ad1d0f858be2e05151086cda37ffe519",
+      "hash_scope": "exact bytes",
+      "decision": "reworked",
+      "origin_component": "rewritten-research-or-handoff",
+      "transformation": "New release-specific packaging/example/test/documentation/report; no raw private chat or empirical input",
+      "rights_decision": "OWNER_ATTESTED_MIT: owner attests, to the best of their knowledge, authority to publish and MIT-license included original/licensable material, with no known third-party, contributor, employer or contractual restrictions; no independent legal audit or rights grant over excluded material",
+      "security_decision": "Included in exact-tree secret/privacy/structural scan; see private review reports; no safety certification",
+      "finalization": "Durable licensed-source handoff; no implied future operation authority"
+    },
+    {
+      "path": "docs/API.md",
+      "sha256": "ef64e21093c100b94b1033b319326e2bcb0500501d9d1439cdc2aeaf0c957313",
+      "hash_scope": "exact bytes",
+      "decision": "reworked",
+      "origin_component": "new-release-work",
+      "transformation": "New release-specific packaging/example/test/documentation/report; no raw private chat or empirical input",
+      "rights_decision": "OWNER_ATTESTED_MIT: owner attests, to the best of their knowledge, authority to publish and MIT-license included original/licensable material, with no known third-party, contributor, employer or contractual restrictions; no independent legal audit or rights grant over excluded material",
+      "security_decision": "Included in exact-tree secret/privacy/structural scan; see private review reports; no safety certification"
+    },
+    {
+      "path": "docs/ARCHITECTURE.md",
+      "sha256": "ff3e4ffa74fbe552214352c7e9248132cc4b24407fe6b918840094e7fa23c040",
+      "hash_scope": "exact bytes",
+      "decision": "reworked",
+      "origin_component": "new-release-work",
+      "transformation": "New release-specific packaging/example/test/documentation/report; no raw private chat or empirical input",
+      "rights_decision": "OWNER_ATTESTED_MIT: owner attests, to the best of their knowledge, authority to publish and MIT-license included original/licensable material, with no known third-party, contributor, employer or contractual restrictions; no independent legal audit or rights grant over excluded material",
+      "security_decision": "Included in exact-tree secret/privacy/structural scan; see private review reports; no safety certification"
+    },
+    {
+      "path": "docs/GETTING_STARTED.md",
+      "sha256": "eaee339931c0691bdd18ddb65efff684ed2a32d2853ae761a3e555a715b004bc",
+      "hash_scope": "exact bytes",
+      "decision": "reworked",
+      "origin_component": "new-release-work",
+      "transformation": "New release-specific packaging/example/test/documentation/report; no raw private chat or empirical input",
+      "rights_decision": "OWNER_ATTESTED_MIT: owner attests, to the best of their knowledge, authority to publish and MIT-license included original/licensable material, with no known third-party, contributor, employer or contractual restrictions; no independent legal audit or rights grant over excluded material",
+      "security_decision": "Included in exact-tree secret/privacy/structural scan; see private review reports; no safety certification",
+      "finalization": "Release-neutral introduction; setup commands unchanged"
+    },
+    {
+      "path": "docs/LIMITATIONS.md",
+      "sha256": "c5b991127e9a224a76b7267836460e7a3efafb5bf3c201173dde7ea7b7a29acb",
+      "hash_scope": "exact bytes",
+      "decision": "reworked",
+      "origin_component": "new-release-work",
+      "transformation": "New release-specific packaging/example/test/documentation/report; no raw private chat or empirical input",
+      "rights_decision": "OWNER_ATTESTED_MIT: owner attests, to the best of their knowledge, authority to publish and MIT-license included original/licensable material, with no known third-party, contributor, employer or contractual restrictions; no independent legal audit or rights grant over excluded material",
+      "security_decision": "Included in exact-tree secret/privacy/structural scan; see private review reports; no safety certification",
+      "finalization": "Replace stale gates with durable rights/security limits"
+    },
+    {
+      "path": "docs/REPRODUCIBILITY.md",
+      "sha256": "289e4083197c9330de68a0ccbd55126dceeb7902fa9c186a7cef29da74938a0d",
+      "hash_scope": "exact bytes",
+      "decision": "reworked",
+      "origin_component": "new-release-work",
+      "transformation": "New release-specific packaging/example/test/documentation/report; no raw private chat or empirical input",
+      "rights_decision": "OWNER_ATTESTED_MIT: owner attests, to the best of their knowledge, authority to publish and MIT-license included original/licensable material, with no known third-party, contributor, employer or contractual restrictions; no independent legal audit or rights grant over excluded material",
+      "security_decision": "Included in exact-tree secret/privacy/structural scan; see private review reports; no safety certification"
+    },
+    {
+      "path": "docs/SOURCE_AND_RIGHTS.md",
+      "sha256": "05f48741ee4230045ca6a69770c5a403b5d14b4a95ed2c22028674694b89f332",
+      "hash_scope": "exact bytes",
+      "decision": "reworked",
+      "origin_component": "new-release-work",
+      "transformation": "New release-specific packaging/example/test/documentation/report; no raw private chat or empirical input",
+      "rights_decision": "OWNER_ATTESTED_MIT: owner attests, to the best of their knowledge, authority to publish and MIT-license included original/licensable material, with no known third-party, contributor, employer or contractual restrictions; no independent legal audit or rights grant over excluded material",
+      "security_decision": "Included in exact-tree secret/privacy/structural scan; see private review reports; no safety certification",
+      "finalization": "Explain attested versus inspected evidence and stable manifest semantics"
+    },
+    {
+      "path": "docs/templates/EXPERIMENT_RECORD.md",
+      "sha256": "8fe1f63267092f45a5d13b48bd54944a746e6cdadb50ad9140a85543f28e9ff4",
+      "hash_scope": "exact bytes",
+      "decision": "reworked",
+      "origin_component": "rewritten-research-or-handoff",
+      "transformation": "New release-specific packaging/example/test/documentation/report; no raw private chat or empirical input",
+      "rights_decision": "OWNER_ATTESTED_MIT: owner attests, to the best of their knowledge, authority to publish and MIT-license included original/licensable material, with no known third-party, contributor, employer or contractual restrictions; no independent legal audit or rights grant over excluded material",
+      "security_decision": "Included in exact-tree secret/privacy/structural scan; see private review reports; no safety certification"
+    },
+    {
+      "path": "docs/templates/INDEPENDENT_REVIEW.md",
+      "sha256": "fec671568751da538c86327139382a0207a9053aee13c2f606d5c5140ece9300",
+      "hash_scope": "exact bytes",
+      "decision": "reworked",
+      "origin_component": "rewritten-research-or-handoff",
+      "transformation": "New release-specific packaging/example/test/documentation/report; no raw private chat or empirical input",
+      "rights_decision": "OWNER_ATTESTED_MIT: owner attests, to the best of their knowledge, authority to publish and MIT-license included original/licensable material, with no known third-party, contributor, employer or contractual restrictions; no independent legal audit or rights grant over excluded material",
+      "security_decision": "Included in exact-tree secret/privacy/structural scan; see private review reports; no safety certification"
+    },
+    {
+      "path": "docs/templates/NEGATIVE_RESULT.md",
+      "sha256": "fd2ad10c5a34668f5806da9d2c98f949a1d7c33251078225ccaba33848dc4a9c",
+      "hash_scope": "exact bytes",
+      "decision": "reworked",
+      "origin_component": "rewritten-research-or-handoff",
+      "transformation": "New release-specific packaging/example/test/documentation/report; no raw private chat or empirical input",
+      "rights_decision": "OWNER_ATTESTED_MIT: owner attests, to the best of their knowledge, authority to publish and MIT-license included original/licensable material, with no known third-party, contributor, employer or contractual restrictions; no independent legal audit or rights grant over excluded material",
+      "security_decision": "Included in exact-tree secret/privacy/structural scan; see private review reports; no safety certification"
+    },
+    {
+      "path": "examples/offline_backtest.py",
+      "sha256": "148b796fed6c3db17500a92577bfcaa8c8476be465c4d7d690cad69d58f77b75",
+      "hash_scope": "exact bytes",
+      "decision": "reworked",
+      "origin_component": "new-release-work",
+      "transformation": "New release-specific packaging/example/test/documentation/report; no raw private chat or empirical input",
+      "rights_decision": "OWNER_ATTESTED_MIT: owner attests, to the best of their knowledge, authority to publish and MIT-license included original/licensable material, with no known third-party, contributor, employer or contractual restrictions; no independent legal audit or rights grant over excluded material",
+      "security_decision": "Included in exact-tree secret/privacy/structural scan; see private review reports; no safety certification"
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "7b3cebc464e89ad1ecfda3dcba0184a8e3a4bb0c3e09afaac818f508e88b39c7",
+      "hash_scope": "exact bytes",
+      "decision": "reworked",
+      "origin_component": "new-release-work",
+      "transformation": "New release-specific packaging/example/test/documentation/report; no raw private chat or empirical input",
+      "rights_decision": "OWNER_ATTESTED_MIT: owner attests, to the best of their knowledge, authority to publish and MIT-license included original/licensable material, with no known third-party, contributor, employer or contractual restrictions; no independent legal audit or rights grant over excluded material",
+      "security_decision": "Included in exact-tree secret/privacy/structural scan; see private review reports; no safety certification",
+      "finalization": "Version 0.1.0, MIT and author display privEgem; no invented email"
+    },
+    {
+      "path": "release/DEPENDENCIES.json",
+      "sha256": "06bee54285de832c8ea951b5f62e5d6ee1e30689b0510fe155da7b562bc88b84",
+      "hash_scope": "exact bytes",
+      "decision": "reworked",
+      "origin_component": "new-release-work",
+      "transformation": "New release-specific packaging/example/test/documentation/report; no raw private chat or empirical input",
+      "rights_decision": "OWNER_ATTESTED_MIT: owner attests, to the best of their knowledge, authority to publish and MIT-license included original/licensable material, with no known third-party, contributor, employer or contractual restrictions; no independent legal audit or rights grant over excluded material",
+      "security_decision": "Included in exact-tree secret/privacy/structural scan; see private review reports; no safety certification"
+    },
+    {
+      "path": "release/SOURCE_MANIFEST.json",
+      "sha256": null,
+      "hash_scope": "self-hash excluded; exact manifest bytes bound by external candidate inventory and archive SHA-256 companions",
+      "decision": "reworked",
+      "origin_component": "new-release-work",
+      "transformation": "New release-specific packaging/example/test/documentation/report; no raw private chat or empirical input",
+      "rights_decision": "OWNER_ATTESTED_MIT: owner attests, to the best of their knowledge, authority to publish and MIT-license included original/licensable material, with no known third-party, contributor, employer or contractual restrictions; no independent legal audit or rights grant over excluded material",
+      "security_decision": "Included in exact-tree secret/privacy/structural scan; see private review reports; no safety certification",
+      "finalization": "Stable distribution descriptor, 125 owner-attested rights decisions, refreshed hashes; self-hash excluded"
+    },
+    {
+      "path": "release/VALIDATION_SUMMARY.md",
+      "sha256": "e2f64a2d9e18e26a77587881a9cac96caad54ed35994c7f80a6692fed291d178",
+      "hash_scope": "exact bytes",
+      "decision": "reworked",
+      "origin_component": "new-release-work",
+      "transformation": "New release-specific packaging/example/test/documentation/report; no raw private chat or empirical input",
+      "rights_decision": "OWNER_ATTESTED_MIT: owner attests, to the best of their knowledge, authority to publish and MIT-license included original/licensable material, with no known third-party, contributor, employer or contractual restrictions; no independent legal audit or rights grant over excluded material",
+      "security_decision": "Included in exact-tree secret/privacy/structural scan; see private review reports; no safety certification",
+      "finalization": "Historical validations and independent reproduction limits; no volatile approval claims"
+    },
+    {
+      "path": "release/requirements-tested.txt",
+      "sha256": "aeced5ffa447210cd483d4b4f12e1806ccb406bb3f41928caa88216fac5e9edf",
+      "hash_scope": "exact bytes",
+      "decision": "reworked",
+      "origin_component": "new-release-work",
+      "transformation": "New release-specific packaging/example/test/documentation/report; no raw private chat or empirical input",
+      "rights_decision": "OWNER_ATTESTED_MIT: owner attests, to the best of their knowledge, authority to publish and MIT-license included original/licensable material, with no known third-party, contributor, employer or contractual restrictions; no independent legal audit or rights grant over excluded material",
+      "security_decision": "Included in exact-tree secret/privacy/structural scan; see private review reports; no safety certification"
+    },
+    {
+      "path": "research/bauer-chernov-stage0.md",
+      "sha256": "d0e58c4a3a4c24e2dc32a33c7dc32f6f8fb3102141171d689bc1f42c25ab2b3f",
+      "hash_scope": "exact bytes",
+      "decision": "reworked",
+      "origin_component": "rewritten-research-or-handoff",
+      "transformation": "New release-specific packaging/example/test/documentation/report; no raw private chat or empirical input",
+      "rights_decision": "OWNER_ATTESTED_MIT: owner attests, to the best of their knowledge, authority to publish and MIT-license included original/licensable material, with no known third-party, contributor, employer or contractual restrictions; no independent legal audit or rights grant over excluded material",
+      "security_decision": "Included in exact-tree secret/privacy/structural scan; see private review reports; no safety certification"
+    },
+    {
+      "path": "research/methodology-and-negative-results.md",
+      "sha256": "0e0dd006782688ef5537e1e264e08d5c408d0e7dd96e0ac4ba4fe7187dc73bae",
+      "hash_scope": "exact bytes",
+      "decision": "reworked",
+      "origin_component": "rewritten-research-or-handoff",
+      "transformation": "New release-specific packaging/example/test/documentation/report; no raw private chat or empirical input",
+      "rights_decision": "OWNER_ATTESTED_MIT: owner attests, to the best of their knowledge, authority to publish and MIT-license included original/licensable material, with no known third-party, contributor, employer or contractual restrictions; no independent legal audit or rights grant over excluded material",
+      "security_decision": "Included in exact-tree secret/privacy/structural scan; see private review reports; no safety certification"
+    },
+    {
+      "path": "research/stage1.md",
+      "sha256": "e9e552d8b5d179602f61be9774f16a48e22a937e65e3ff08c5d9308b5bd3ec66",
+      "hash_scope": "exact bytes",
+      "decision": "reworked",
+      "origin_component": "rewritten-research-or-handoff",
+      "transformation": "New release-specific packaging/example/test/documentation/report; no raw private chat or empirical input",
+      "rights_decision": "OWNER_ATTESTED_MIT: owner attests, to the best of their knowledge, authority to publish and MIT-license included original/licensable material, with no known third-party, contributor, employer or contractual restrictions; no independent legal audit or rights grant over excluded material",
+      "security_decision": "Included in exact-tree secret/privacy/structural scan; see private review reports; no safety certification"
+    },
+    {
+      "path": "research/x1.md",
+      "sha256": "8ee49b1b3a32a135fefade3251b652d6255957fd8d14cfba0c07f8353304bfb5",
+      "hash_scope": "exact bytes",
+      "decision": "reworked",
+      "origin_component": "rewritten-research-or-handoff",
+      "transformation": "New release-specific packaging/example/test/documentation/report; no raw private chat or empirical input",
+      "rights_decision": "OWNER_ATTESTED_MIT: owner attests, to the best of their knowledge, authority to publish and MIT-license included original/licensable material, with no known third-party, contributor, employer or contractual restrictions; no independent legal audit or rights grant over excluded material",
+      "security_decision": "Included in exact-tree secret/privacy/structural scan; see private review reports; no safety certification"
+    },
+    {
+      "path": "research/x2.md",
+      "sha256": "0f9ab77849a2f23438c5d03b98dcf9bf481aeeac0aa5571d870f7635e6c0071b",
+      "hash_scope": "exact bytes",
+      "decision": "reworked",
+      "origin_component": "rewritten-research-or-handoff",
+      "transformation": "New release-specific packaging/example/test/documentation/report; no raw private chat or empirical input",
+      "rights_decision": "OWNER_ATTESTED_MIT: owner attests, to the best of their knowledge, authority to publish and MIT-license included original/licensable material, with no known third-party, contributor, employer or contractual restrictions; no independent legal audit or rights grant over excluded material",
+      "security_decision": "Included in exact-tree secret/privacy/structural scan; see private review reports; no safety certification"
+    },
+    {
+      "path": "scripts/offline_guard/sitecustomize.py",
+      "sha256": "3b527411cec38d2002d1175056231e7b2f7df685e1ce72209b07e371a70843d9",
+      "hash_scope": "exact bytes",
+      "decision": "reworked",
+      "origin_component": "new-release-work",
+      "transformation": "New release-specific packaging/example/test/documentation/report; no raw private chat or empirical input",
+      "rights_decision": "OWNER_ATTESTED_MIT: owner attests, to the best of their knowledge, authority to publish and MIT-license included original/licensable material, with no known third-party, contributor, employer or contractual restrictions; no independent legal audit or rights grant over excluded material",
+      "security_decision": "Included in exact-tree secret/privacy/structural scan; see private review reports; no safety certification"
+    },
+    {
+      "path": "scripts/verify_offline.py",
+      "sha256": "4850e05f6738301c945aa48d741af43ae404a196de23e45adbfc00203fddd852",
+      "hash_scope": "exact bytes",
+      "decision": "reworked",
+      "origin_component": "new-release-work",
+      "transformation": "New release-specific packaging/example/test/documentation/report; no raw private chat or empirical input",
+      "rights_decision": "OWNER_ATTESTED_MIT: owner attests, to the best of their knowledge, authority to publish and MIT-license included original/licensable material, with no known third-party, contributor, employer or contractual restrictions; no independent legal audit or rights grant over excluded material",
+      "security_decision": "Included in exact-tree secret/privacy/structural scan; see private review reports; no safety certification"
+    },
+    {
+      "path": "tests/conftest.py",
+      "sha256": "fe0434d1af90575676e41b567a5c9be597e4b3acce39328cffb45b6b8311afd8",
+      "hash_scope": "exact bytes",
+      "decision": "reworked",
+      "origin_component": "new-release-work",
+      "transformation": "New release-specific packaging/example/test/documentation/report; no raw private chat or empirical input",
+      "rights_decision": "OWNER_ATTESTED_MIT: owner attests, to the best of their knowledge, authority to publish and MIT-license included original/licensable material, with no known third-party, contributor, employer or contractual restrictions; no independent legal audit or rights grant over excluded material",
+      "security_decision": "Included in exact-tree secret/privacy/structural scan; see private review reports; no safety certification"
+    },
+    {
+      "path": "tests/fixtures/feature_bars.csv",
+      "sha256": "c3d6957eb9d2f0cd67da50799b12ae7d3f502bd2e10203ac0f644c72b76baaa6",
+      "hash_scope": "exact bytes",
+      "decision": "included",
+      "origin_component": "implementation",
+      "transformation": "LF normalization only; final UTF-8/LF, trailing whitespace and terminal-blank normalization",
+      "rights_decision": "OWNER_ATTESTED_MIT: owner attests, to the best of their knowledge, authority to publish and MIT-license included original/licensable material, with no known third-party, contributor, employer or contractual restrictions; no independent legal audit or rights grant over excluded material",
+      "security_decision": "Included in exact-tree secret/privacy/structural scan; see private review reports; no safety certification"
+    },
+    {
+      "path": "tests/test_backtester_execution_semantics.py",
+      "sha256": "5cb148bce77256e31029220291cebac0f26a17f6669cfb59d1dc15b515722779",
+      "hash_scope": "exact bytes",
+      "decision": "reworked",
+      "origin_component": "implementation",
+      "transformation": "Package imports; generic project label; parity test omits schema test for excluded log parser; reconciliation omits incident-specific fixture method, replaced separately with synthetic coverage; final UTF-8/LF, trailing whitespace and terminal-blank normalization",
+      "rights_decision": "OWNER_ATTESTED_MIT: owner attests, to the best of their knowledge, authority to publish and MIT-license included original/licensable material, with no known third-party, contributor, employer or contractual restrictions; no independent legal audit or rights grant over excluded material",
+      "security_decision": "Included in exact-tree secret/privacy/structural scan; see private review reports; no safety certification"
+    },
+    {
+      "path": "tests/test_backtester_feature_parity.py",
+      "sha256": "dfadc25a2910f19e436f33352f7d88075d1a388ac6f2d384314f5113952b2aa8",
+      "hash_scope": "exact bytes",
+      "decision": "reworked",
+      "origin_component": "implementation",
+      "transformation": "Package imports; generic project label; parity test omits schema test for excluded log parser; reconciliation omits incident-specific fixture method, replaced separately with synthetic coverage; final UTF-8/LF, trailing whitespace and terminal-blank normalization",
+      "rights_decision": "OWNER_ATTESTED_MIT: owner attests, to the best of their knowledge, authority to publish and MIT-license included original/licensable material, with no known third-party, contributor, employer or contractual restrictions; no independent legal audit or rights grant over excluded material",
+      "security_decision": "Included in exact-tree secret/privacy/structural scan; see private review reports; no safety certification"
+    },
+    {
+      "path": "tests/test_broker_reconciliation.py",
+      "sha256": "8a498ed6c944f8449a2ab4b2600e22946838d4b5934b33c511d99170fb25d547",
+      "hash_scope": "exact bytes",
+      "decision": "reworked",
+      "origin_component": "implementation",
+      "transformation": "Package imports; generic project label; parity test omits schema test for excluded log parser; reconciliation omits incident-specific fixture method, replaced separately with synthetic coverage; final UTF-8/LF, trailing whitespace and terminal-blank normalization",
+      "rights_decision": "OWNER_ATTESTED_MIT: owner attests, to the best of their knowledge, authority to publish and MIT-license included original/licensable material, with no known third-party, contributor, employer or contractual restrictions; no independent legal audit or rights grant over excluded material",
+      "security_decision": "Included in exact-tree secret/privacy/structural scan; see private review reports; no safety certification"
+    },
+    {
+      "path": "tests/test_preserved_strategies.py",
+      "sha256": "8431a5621210054bddc105623cbbca6db769510a4a6a1254b1ddc4d913fe2b27",
+      "hash_scope": "exact bytes",
+      "decision": "reworked",
+      "origin_component": "new-release-work",
+      "transformation": "New release-specific packaging/example/test/documentation/report; no raw private chat or empirical input",
+      "rights_decision": "OWNER_ATTESTED_MIT: owner attests, to the best of their knowledge, authority to publish and MIT-license included original/licensable material, with no known third-party, contributor, employer or contractual restrictions; no independent legal audit or rights grant over excluded material",
+      "security_decision": "Included in exact-tree secret/privacy/structural scan; see private review reports; no safety certification"
+    },
+    {
+      "path": "tests/test_release_contract.py",
+      "sha256": "52f6c2cdc03e7269443ac9f37e437c245c5d0aac7bcde58eb7becd0ef3462c2d",
+      "hash_scope": "exact bytes",
+      "decision": "reworked",
+      "origin_component": "new-release-work",
+      "transformation": "New release-specific packaging/example/test/documentation/report; no raw private chat or empirical input",
+      "rights_decision": "OWNER_ATTESTED_MIT: owner attests, to the best of their knowledge, authority to publish and MIT-license included original/licensable material, with no known third-party, contributor, employer or contractual restrictions; no independent legal audit or rights grant over excluded material",
+      "security_decision": "Included in exact-tree secret/privacy/structural scan; see private review reports; no safety certification"
+    },
+    {
+      "path": "tests/test_research_experiment_record.py",
+      "sha256": "8da6e6550cce0b56b2e27805b78a6bd7f8551fed25ab5096b33e491903830956",
+      "hash_scope": "exact bytes",
+      "decision": "reworked",
+      "origin_component": "implementation",
+      "transformation": "Package imports; generic project label; parity test omits schema test for excluded log parser; reconciliation omits incident-specific fixture method, replaced separately with synthetic coverage; final UTF-8/LF, trailing whitespace and terminal-blank normalization",
+      "rights_decision": "OWNER_ATTESTED_MIT: owner attests, to the best of their knowledge, authority to publish and MIT-license included original/licensable material, with no known third-party, contributor, employer or contractual restrictions; no independent legal audit or rights grant over excluded material",
+      "security_decision": "Included in exact-tree secret/privacy/structural scan; see private review reports; no safety certification"
+    },
+    {
+      "path": "tests/test_strategy_features.py",
+      "sha256": "15e5a17cb0b295ed54dd17c8bfab17b1aeeaa9d7068a089b0b10f04a7ce7559a",
+      "hash_scope": "exact bytes",
+      "decision": "reworked",
+      "origin_component": "implementation",
+      "transformation": "Package imports; generic project label; parity test omits schema test for excluded log parser; reconciliation omits incident-specific fixture method, replaced separately with synthetic coverage; final UTF-8/LF, trailing whitespace and terminal-blank normalization",
+      "rights_decision": "OWNER_ATTESTED_MIT: owner attests, to the best of their knowledge, authority to publish and MIT-license included original/licensable material, with no known third-party, contributor, employer or contractual restrictions; no independent legal audit or rights grant over excluded material",
+      "security_decision": "Included in exact-tree secret/privacy/structural scan; see private review reports; no safety certification"
+    },
+    {
+      "path": "tests/test_synthetic_reconciliation.py",
+      "sha256": "8d424cc6eb809de2e493f2b48f729cde1e178751e21d86d9e0e159664f6456e3",
+      "hash_scope": "exact bytes",
+      "decision": "reworked",
+      "origin_component": "new-release-work",
+      "transformation": "New release-specific packaging/example/test/documentation/report; no raw private chat or empirical input",
+      "rights_decision": "OWNER_ATTESTED_MIT: owner attests, to the best of their knowledge, authority to publish and MIT-license included original/licensable material, with no known third-party, contributor, employer or contractual restrictions; no independent legal audit or rights grant over excluded material",
+      "security_decision": "Included in exact-tree secret/privacy/structural scan; see private review reports; no safety certification"
+    },
+    {
+      "path": "tools/research-intake/LICENSE",
+      "hash_scope": "exact bytes",
+      "decision": "new",
+      "origin_component": "new-release-work",
+      "transformation": "Identical MIT license copy for independently distributed Intake package",
+      "security_decision": "Included in exact final text/privacy/structure and secret scan; no safety certification",
+      "sha256": "0660b8f8ea822af74544b4991e0293f8bb2d0d03aa732cab1a5c83f1fe3bee4c",
+      "rights_decision": "OWNER_ATTESTED_MIT: owner attests, to the best of their knowledge, authority to publish and MIT-license included original/licensable material, with no known third-party, contributor, employer or contractual restrictions; no independent legal audit or rights grant over excluded material",
+      "finalization": "Standard MIT text, Copyright (c) 2026 privEgem; owner-attested authority"
+    },
+    {
+      "path": "tools/research-intake/README.md",
+      "sha256": "023d092948234c5fe591f1c976742f3bebf397439737c1087f269de11bdbe7b4",
+      "hash_scope": "exact bytes",
+      "decision": "reworked",
+      "origin_component": "new-release-work",
+      "transformation": "New release-specific packaging/example/test/documentation/report; no raw private chat or empirical input",
+      "rights_decision": "OWNER_ATTESTED_MIT: owner attests, to the best of their knowledge, authority to publish and MIT-license included original/licensable material, with no known third-party, contributor, employer or contractual restrictions; no independent legal audit or rights grant over excluded material",
+      "security_decision": "Included in exact-tree secret/privacy/structural scan; see private review reports; no safety certification",
+      "finalization": "Durable MIT scope; retrieved-content exclusions unchanged"
+    },
+    {
+      "path": "tools/research-intake/config/source_registry.yaml",
+      "sha256": "3f21c8892f31ad8d7d03badc38606794e7cf902d8b4b849ce02ca9c66610a65b",
+      "hash_scope": "exact bytes",
+      "decision": "included",
+      "origin_component": "intake",
+      "transformation": "UTF-8/LF normalization only; scheduler and pilot material excluded; final UTF-8/LF, trailing whitespace and terminal-blank normalization",
+      "rights_decision": "OWNER_ATTESTED_MIT: owner attests, to the best of their knowledge, authority to publish and MIT-license included original/licensable material, with no known third-party, contributor, employer or contractual restrictions; no independent legal audit or rights grant over excluded material",
+      "security_decision": "Included in exact-tree secret/privacy/structural scan; see private review reports; no safety certification"
+    },
+    {
+      "path": "tools/research-intake/config/topics.yaml",
+      "sha256": "63b6d140c1b3ff52be906003422267999b46ad31b5fcaf3b7f5ada3a521a9a48",
+      "hash_scope": "exact bytes",
+      "decision": "included",
+      "origin_component": "intake",
+      "transformation": "UTF-8/LF normalization only; scheduler and pilot material excluded; final UTF-8/LF, trailing whitespace and terminal-blank normalization",
+      "rights_decision": "OWNER_ATTESTED_MIT: owner attests, to the best of their knowledge, authority to publish and MIT-license included original/licensable material, with no known third-party, contributor, employer or contractual restrictions; no independent legal audit or rights grant over excluded material",
+      "security_decision": "Included in exact-tree secret/privacy/structural scan; see private review reports; no safety certification"
+    },
+    {
+      "path": "tools/research-intake/examples/offline_demo.py",
+      "sha256": "5018cc49dc41baefcdc8d6cf1206bda3cd701b9a547241104314b7c85366f553",
+      "hash_scope": "exact bytes",
+      "decision": "reworked",
+      "origin_component": "new-release-work",
+      "transformation": "New release-specific packaging/example/test/documentation/report; no raw private chat or empirical input",
+      "rights_decision": "OWNER_ATTESTED_MIT: owner attests, to the best of their knowledge, authority to publish and MIT-license included original/licensable material, with no known third-party, contributor, employer or contractual restrictions; no independent legal audit or rights grant over excluded material",
+      "security_decision": "Included in exact-tree secret/privacy/structural scan; see private review reports; no safety certification"
+    },
+    {
+      "path": "tools/research-intake/pyproject.toml",
+      "sha256": "0ba6ddc3305467c4aed8fc78b9b131104512a3805c231e52cb59c6ff3fa54b19",
+      "hash_scope": "exact bytes",
+      "decision": "reworked",
+      "origin_component": "intake",
+      "transformation": "Include config/schema resources in installable wheel; no invented license or author; final UTF-8/LF, trailing whitespace and terminal-blank normalization",
+      "rights_decision": "OWNER_ATTESTED_MIT: owner attests, to the best of their knowledge, authority to publish and MIT-license included original/licensable material, with no known third-party, contributor, employer or contractual restrictions; no independent legal audit or rights grant over excluded material",
+      "security_decision": "Included in exact-tree secret/privacy/structural scan; see private review reports; no safety certification",
+      "finalization": "Version 0.1.0, MIT and author display privEgem; no invented email"
+    },
+    {
+      "path": "tools/research-intake/schemas/human_review_batch.schema.json",
+      "sha256": "452b1dc84b2cb2c6161158e557145acbb1c8cb9ec09c55ae187f570df4120b1e",
+      "hash_scope": "exact bytes",
+      "decision": "included",
+      "origin_component": "intake",
+      "transformation": "UTF-8/LF normalization only; scheduler and pilot material excluded; final UTF-8/LF, trailing whitespace and terminal-blank normalization",
+      "rights_decision": "OWNER_ATTESTED_MIT: owner attests, to the best of their knowledge, authority to publish and MIT-license included original/licensable material, with no known third-party, contributor, employer or contractual restrictions; no independent legal audit or rights grant over excluded material",
+      "security_decision": "Included in exact-tree secret/privacy/structural scan; see private review reports; no safety certification"
+    },
+    {
+      "path": "tools/research-intake/schemas/normalized_item.schema.json",
+      "sha256": "8ae0c8c38a7870bc8a46c3a1cabc872075ada6a7cc60d915af45d66702c9b39e",
+      "hash_scope": "exact bytes",
+      "decision": "included",
+      "origin_component": "intake",
+      "transformation": "UTF-8/LF normalization only; scheduler and pilot material excluded; final UTF-8/LF, trailing whitespace and terminal-blank normalization",
+      "rights_decision": "OWNER_ATTESTED_MIT: owner attests, to the best of their knowledge, authority to publish and MIT-license included original/licensable material, with no known third-party, contributor, employer or contractual restrictions; no independent legal audit or rights grant over excluded material",
+      "security_decision": "Included in exact-tree secret/privacy/structural scan; see private review reports; no safety certification"
+    },
+    {
+      "path": "tools/research-intake/schemas/raw_response_provenance.schema.json",
+      "sha256": "4814df6475848a2685b82cbbdf9535188cf692aad2b2f17f4a76a36a64cacdb1",
+      "hash_scope": "exact bytes",
+      "decision": "included",
+      "origin_component": "intake",
+      "transformation": "UTF-8/LF normalization only; scheduler and pilot material excluded; final UTF-8/LF, trailing whitespace and terminal-blank normalization",
+      "rights_decision": "OWNER_ATTESTED_MIT: owner attests, to the best of their knowledge, authority to publish and MIT-license included original/licensable material, with no known third-party, contributor, employer or contractual restrictions; no independent legal audit or rights grant over excluded material",
+      "security_decision": "Included in exact-tree secret/privacy/structural scan; see private review reports; no safety certification"
+    },
+    {
+      "path": "tools/research-intake/schemas/recovery_receipt.schema.json",
+      "sha256": "4dc787122d1d5471cb2b5055abeb2455ccaeea202a991afa12629939fc80f321",
+      "hash_scope": "exact bytes",
+      "decision": "included",
+      "origin_component": "intake",
+      "transformation": "UTF-8/LF normalization only; scheduler and pilot material excluded; final UTF-8/LF, trailing whitespace and terminal-blank normalization",
+      "rights_decision": "OWNER_ATTESTED_MIT: owner attests, to the best of their knowledge, authority to publish and MIT-license included original/licensable material, with no known third-party, contributor, employer or contractual restrictions; no independent legal audit or rights grant over excluded material",
+      "security_decision": "Included in exact-tree secret/privacy/structural scan; see private review reports; no safety certification"
+    },
+    {
+      "path": "tools/research-intake/schemas/review_queue_item.schema.json",
+      "sha256": "88aef0b4982e11f28401e9d95874ad55672a5d9179f9950451939ac02afff616",
+      "hash_scope": "exact bytes",
+      "decision": "included",
+      "origin_component": "intake",
+      "transformation": "UTF-8/LF normalization only; scheduler and pilot material excluded; final UTF-8/LF, trailing whitespace and terminal-blank normalization",
+      "rights_decision": "OWNER_ATTESTED_MIT: owner attests, to the best of their knowledge, authority to publish and MIT-license included original/licensable material, with no known third-party, contributor, employer or contractual restrictions; no independent legal audit or rights grant over excluded material",
+      "security_decision": "Included in exact-tree secret/privacy/structural scan; see private review reports; no safety certification"
+    },
+    {
+      "path": "tools/research-intake/schemas/run_manifest.schema.json",
+      "sha256": "3af690fa277655bc51cc542cf99c4868b683d61db0a418463d2e5f2011bfa01e",
+      "hash_scope": "exact bytes",
+      "decision": "included",
+      "origin_component": "intake",
+      "transformation": "UTF-8/LF normalization only; scheduler and pilot material excluded; final UTF-8/LF, trailing whitespace and terminal-blank normalization",
+      "rights_decision": "OWNER_ATTESTED_MIT: owner attests, to the best of their knowledge, authority to publish and MIT-license included original/licensable material, with no known third-party, contributor, employer or contractual restrictions; no independent legal audit or rights grant over excluded material",
+      "security_decision": "Included in exact-tree secret/privacy/structural scan; see private review reports; no safety certification"
+    },
+    {
+      "path": "tools/research-intake/schemas/source_registry.schema.json",
+      "sha256": "57c44468900270dd553e54ddabb5f7018c215a7a4e591121e27800c7f2eccc99",
+      "hash_scope": "exact bytes",
+      "decision": "included",
+      "origin_component": "intake",
+      "transformation": "UTF-8/LF normalization only; scheduler and pilot material excluded; final UTF-8/LF, trailing whitespace and terminal-blank normalization",
+      "rights_decision": "OWNER_ATTESTED_MIT: owner attests, to the best of their knowledge, authority to publish and MIT-license included original/licensable material, with no known third-party, contributor, employer or contractual restrictions; no independent legal audit or rights grant over excluded material",
+      "security_decision": "Included in exact-tree secret/privacy/structural scan; see private review reports; no safety certification"
+    },
+    {
+      "path": "tools/research-intake/schemas/topics.schema.json",
+      "sha256": "602ebb4d4a1f3182c4c987f1ae0f5e4f5a72c770286640cef2a79330dde930e8",
+      "hash_scope": "exact bytes",
+      "decision": "included",
+      "origin_component": "intake",
+      "transformation": "UTF-8/LF normalization only; scheduler and pilot material excluded; final UTF-8/LF, trailing whitespace and terminal-blank normalization",
+      "rights_decision": "OWNER_ATTESTED_MIT: owner attests, to the best of their knowledge, authority to publish and MIT-license included original/licensable material, with no known third-party, contributor, employer or contractual restrictions; no independent legal audit or rights grant over excluded material",
+      "security_decision": "Included in exact-tree secret/privacy/structural scan; see private review reports; no safety certification"
+    },
+    {
+      "path": "tools/research-intake/src/research_intake/__init__.py",
+      "sha256": "7ee66b57503d3bfba9644c997956c7198f787ea0f574bd726c6c7cb9d0cd97df",
+      "hash_scope": "exact bytes",
+      "decision": "included",
+      "origin_component": "intake",
+      "transformation": "UTF-8/LF normalization only; scheduler and pilot material excluded; final UTF-8/LF, trailing whitespace and terminal-blank normalization",
+      "rights_decision": "OWNER_ATTESTED_MIT: owner attests, to the best of their knowledge, authority to publish and MIT-license included original/licensable material, with no known third-party, contributor, employer or contractual restrictions; no independent legal audit or rights grant over excluded material",
+      "security_decision": "Included in exact-tree secret/privacy/structural scan; see private review reports; no safety certification"
+    },
+    {
+      "path": "tools/research-intake/src/research_intake/__main__.py",
+      "sha256": "bfaec7897439a817a866577b8848dba0ccb5cd45a6d2860ce4bdd68b1c86fa2a",
+      "hash_scope": "exact bytes",
+      "decision": "included",
+      "origin_component": "intake",
+      "transformation": "UTF-8/LF normalization only; scheduler and pilot material excluded; final UTF-8/LF, trailing whitespace and terminal-blank normalization",
+      "rights_decision": "OWNER_ATTESTED_MIT: owner attests, to the best of their knowledge, authority to publish and MIT-license included original/licensable material, with no known third-party, contributor, employer or contractual restrictions; no independent legal audit or rights grant over excluded material",
+      "security_decision": "Included in exact-tree secret/privacy/structural scan; see private review reports; no safety certification"
+    },
+    {
+      "path": "tools/research-intake/src/research_intake/arxiv.py",
+      "sha256": "121d28b090d670198af944fc0b99aca4df2fdd8bb0efa296bc96e2c843656fae",
+      "hash_scope": "exact bytes",
+      "decision": "included",
+      "origin_component": "intake",
+      "transformation": "UTF-8/LF normalization only; scheduler and pilot material excluded; final UTF-8/LF, trailing whitespace and terminal-blank normalization",
+      "rights_decision": "OWNER_ATTESTED_MIT: owner attests, to the best of their knowledge, authority to publish and MIT-license included original/licensable material, with no known third-party, contributor, employer or contractual restrictions; no independent legal audit or rights grant over excluded material",
+      "security_decision": "Included in exact-tree secret/privacy/structural scan; see private review reports; no safety certification"
+    },
+    {
+      "path": "tools/research-intake/src/research_intake/catalog.py",
+      "sha256": "651b2f34e9561b383195101d1a6e3c78be5f543c7f7d5be4890d7104c2aa6270",
+      "hash_scope": "exact bytes",
+      "decision": "included",
+      "origin_component": "intake",
+      "transformation": "UTF-8/LF normalization only; scheduler and pilot material excluded; Added closing SQLite connection subclass; commit/rollback semantics retained and regression tested; final UTF-8/LF, trailing whitespace and terminal-blank normalization",
+      "rights_decision": "OWNER_ATTESTED_MIT: owner attests, to the best of their knowledge, authority to publish and MIT-license included original/licensable material, with no known third-party, contributor, employer or contractual restrictions; no independent legal audit or rights grant over excluded material",
+      "security_decision": "Included in exact-tree secret/privacy/structural scan; see private review reports; no safety certification"
+    },
+    {
+      "path": "tools/research-intake/src/research_intake/cli.py",
+      "sha256": "89e63125cf900ad27e68480e0fd60a1ea98569e93006f551bdd409ef1e62a485",
+      "hash_scope": "exact bytes",
+      "decision": "reworked",
+      "origin_component": "intake",
+      "transformation": "Wheel-safe config root; explicit --project-root; preserves command behavior; final UTF-8/LF, trailing whitespace and terminal-blank normalization",
+      "rights_decision": "OWNER_ATTESTED_MIT: owner attests, to the best of their knowledge, authority to publish and MIT-license included original/licensable material, with no known third-party, contributor, employer or contractual restrictions; no independent legal audit or rights grant over excluded material",
+      "security_decision": "Included in exact-tree secret/privacy/structural scan; see private review reports; no safety certification"
+    },
+    {
+      "path": "tools/research-intake/src/research_intake/config.py",
+      "sha256": "d80441783cb63a65a3593f4762104734c64ef2258ae4fd4c735bed59dee1b66b",
+      "hash_scope": "exact bytes",
+      "decision": "included",
+      "origin_component": "intake",
+      "transformation": "UTF-8/LF normalization only; scheduler and pilot material excluded; final UTF-8/LF, trailing whitespace and terminal-blank normalization",
+      "rights_decision": "OWNER_ATTESTED_MIT: owner attests, to the best of their knowledge, authority to publish and MIT-license included original/licensable material, with no known third-party, contributor, employer or contractual restrictions; no independent legal audit or rights grant over excluded material",
+      "security_decision": "Included in exact-tree secret/privacy/structural scan; see private review reports; no safety certification"
+    },
+    {
+      "path": "tools/research-intake/src/research_intake/evidence.py",
+      "sha256": "1ecd35fd0de1123547e85dff681f5a5a6730a25dccc6338d20973a6b76e5cf96",
+      "hash_scope": "exact bytes",
+      "decision": "included",
+      "origin_component": "intake",
+      "transformation": "UTF-8/LF normalization only; scheduler and pilot material excluded; final UTF-8/LF, trailing whitespace and terminal-blank normalization",
+      "rights_decision": "OWNER_ATTESTED_MIT: owner attests, to the best of their knowledge, authority to publish and MIT-license included original/licensable material, with no known third-party, contributor, employer or contractual restrictions; no independent legal audit or rights grant over excluded material",
+      "security_decision": "Included in exact-tree secret/privacy/structural scan; see private review reports; no safety certification"
+    },
+    {
+      "path": "tools/research-intake/src/research_intake/human_review.py",
+      "sha256": "5fd0bdd247045f6a372c9d34d035b23ecad1b81fbfd93746805978d7fff88125",
+      "hash_scope": "exact bytes",
+      "decision": "included",
+      "origin_component": "intake",
+      "transformation": "UTF-8/LF normalization only; scheduler and pilot material excluded; final UTF-8/LF, trailing whitespace and terminal-blank normalization",
+      "rights_decision": "OWNER_ATTESTED_MIT: owner attests, to the best of their knowledge, authority to publish and MIT-license included original/licensable material, with no known third-party, contributor, employer or contractual restrictions; no independent legal audit or rights grant over excluded material",
+      "security_decision": "Included in exact-tree secret/privacy/structural scan; see private review reports; no safety certification"
+    },
+    {
+      "path": "tools/research-intake/src/research_intake/identity.py",
+      "sha256": "7a08cb5bbb0140a8e99a048d7848f8c851a9202c4a3d99fa89f9ebef84b2620e",
+      "hash_scope": "exact bytes",
+      "decision": "included",
+      "origin_component": "intake",
+      "transformation": "UTF-8/LF normalization only; scheduler and pilot material excluded; final UTF-8/LF, trailing whitespace and terminal-blank normalization",
+      "rights_decision": "OWNER_ATTESTED_MIT: owner attests, to the best of their knowledge, authority to publish and MIT-license included original/licensable material, with no known third-party, contributor, employer or contractual restrictions; no independent legal audit or rights grant over excluded material",
+      "security_decision": "Included in exact-tree secret/privacy/structural scan; see private review reports; no safety certification"
+    },
+    {
+      "path": "tools/research-intake/src/research_intake/manifests.py",
+      "sha256": "ddb83c16485562fd69f65dbf26b92259669a3141d92986251d7509ef876e0480",
+      "hash_scope": "exact bytes",
+      "decision": "included",
+      "origin_component": "intake",
+      "transformation": "UTF-8/LF normalization only; scheduler and pilot material excluded; final UTF-8/LF, trailing whitespace and terminal-blank normalization",
+      "rights_decision": "OWNER_ATTESTED_MIT: owner attests, to the best of their knowledge, authority to publish and MIT-license included original/licensable material, with no known third-party, contributor, employer or contractual restrictions; no independent legal audit or rights grant over excluded material",
+      "security_decision": "Included in exact-tree secret/privacy/structural scan; see private review reports; no safety certification"
+    },
+    {
+      "path": "tools/research-intake/src/research_intake/normalization.py",
+      "sha256": "88ddbbb85d10e8e9c14ab083a5e32c39f4d71ad3b0de800814e29db11ce515db",
+      "hash_scope": "exact bytes",
+      "decision": "included",
+      "origin_component": "intake",
+      "transformation": "UTF-8/LF normalization only; scheduler and pilot material excluded; final UTF-8/LF, trailing whitespace and terminal-blank normalization",
+      "rights_decision": "OWNER_ATTESTED_MIT: owner attests, to the best of their knowledge, authority to publish and MIT-license included original/licensable material, with no known third-party, contributor, employer or contractual restrictions; no independent legal audit or rights grant over excluded material",
+      "security_decision": "Included in exact-tree secret/privacy/structural scan; see private review reports; no safety certification"
+    },
+    {
+      "path": "tools/research-intake/src/research_intake/operation_lock.py",
+      "sha256": "9e2a3dc306e86f00a1a2e493b460865eb8d273472ef78953bc82cd0b9557bf5c",
+      "hash_scope": "exact bytes",
+      "decision": "included",
+      "origin_component": "intake",
+      "transformation": "UTF-8/LF normalization only; scheduler and pilot material excluded; final UTF-8/LF, trailing whitespace and terminal-blank normalization",
+      "rights_decision": "OWNER_ATTESTED_MIT: owner attests, to the best of their knowledge, authority to publish and MIT-license included original/licensable material, with no known third-party, contributor, employer or contractual restrictions; no independent legal audit or rights grant over excluded material",
+      "security_decision": "Included in exact-tree secret/privacy/structural scan; see private review reports; no safety certification"
+    },
+    {
+      "path": "tools/research-intake/src/research_intake/paths.py",
+      "sha256": "882479d0b2a9d342a5d35cd9b399bff3565026b0a9bedbceb02381bbaae576d1",
+      "hash_scope": "exact bytes",
+      "decision": "reworked",
+      "origin_component": "intake",
+      "transformation": "Default runtime data in caller CWD, never installed package/source state; environment override retained; final UTF-8/LF, trailing whitespace and terminal-blank normalization",
+      "rights_decision": "OWNER_ATTESTED_MIT: owner attests, to the best of their knowledge, authority to publish and MIT-license included original/licensable material, with no known third-party, contributor, employer or contractual restrictions; no independent legal audit or rights grant over excluded material",
+      "security_decision": "Included in exact-tree secret/privacy/structural scan; see private review reports; no safety certification"
+    },
+    {
+      "path": "tools/research-intake/src/research_intake/pipeline.py",
+      "sha256": "65841663301fd3147d8b692b6eab997c48b70760f15b70df404985efcd48f7ae",
+      "hash_scope": "exact bytes",
+      "decision": "included",
+      "origin_component": "intake",
+      "transformation": "UTF-8/LF normalization only; scheduler and pilot material excluded; final UTF-8/LF, trailing whitespace and terminal-blank normalization",
+      "rights_decision": "OWNER_ATTESTED_MIT: owner attests, to the best of their knowledge, authority to publish and MIT-license included original/licensable material, with no known third-party, contributor, employer or contractual restrictions; no independent legal audit or rights grant over excluded material",
+      "security_decision": "Included in exact-tree secret/privacy/structural scan; see private review reports; no safety certification"
+    },
+    {
+      "path": "tools/research-intake/src/research_intake/py.typed",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "hash_scope": "exact bytes",
+      "decision": "included",
+      "origin_component": "intake",
+      "transformation": "UTF-8/LF normalization only; scheduler and pilot material excluded; final UTF-8/LF, trailing whitespace and terminal-blank normalization",
+      "rights_decision": "OWNER_ATTESTED_MIT: owner attests, to the best of their knowledge, authority to publish and MIT-license included original/licensable material, with no known third-party, contributor, employer or contractual restrictions; no independent legal audit or rights grant over excluded material",
+      "security_decision": "Included in exact-tree secret/privacy/structural scan; see private review reports; no safety certification"
+    },
+    {
+      "path": "tools/research-intake/src/research_intake/queues.py",
+      "sha256": "04211411d89d4331b4b3289132593918681f19931fd9438f66e3722156229c66",
+      "hash_scope": "exact bytes",
+      "decision": "included",
+      "origin_component": "intake",
+      "transformation": "UTF-8/LF normalization only; scheduler and pilot material excluded; final UTF-8/LF, trailing whitespace and terminal-blank normalization",
+      "rights_decision": "OWNER_ATTESTED_MIT: owner attests, to the best of their knowledge, authority to publish and MIT-license included original/licensable material, with no known third-party, contributor, employer or contractual restrictions; no independent legal audit or rights grant over excluded material",
+      "security_decision": "Included in exact-tree secret/privacy/structural scan; see private review reports; no safety certification"
+    },
+    {
+      "path": "tools/research-intake/src/research_intake/recovery.py",
+      "sha256": "a2b7949e3c246e9fc2af351a2be42652864ea96e11c2450ce06c795c1c6bab65",
+      "hash_scope": "exact bytes",
+      "decision": "included",
+      "origin_component": "intake",
+      "transformation": "UTF-8/LF normalization only; scheduler and pilot material excluded; final UTF-8/LF, trailing whitespace and terminal-blank normalization",
+      "rights_decision": "OWNER_ATTESTED_MIT: owner attests, to the best of their knowledge, authority to publish and MIT-license included original/licensable material, with no known third-party, contributor, employer or contractual restrictions; no independent legal audit or rights grant over excluded material",
+      "security_decision": "Included in exact-tree secret/privacy/structural scan; see private review reports; no safety certification"
+    },
+    {
+      "path": "tools/research-intake/src/research_intake/relevance.py",
+      "sha256": "de70b39816f8cc27afa64281e19cfbbd1db9930b2c728bea638bd034bf0a4152",
+      "hash_scope": "exact bytes",
+      "decision": "included",
+      "origin_component": "intake",
+      "transformation": "UTF-8/LF normalization only; scheduler and pilot material excluded; final UTF-8/LF, trailing whitespace and terminal-blank normalization",
+      "rights_decision": "OWNER_ATTESTED_MIT: owner attests, to the best of their knowledge, authority to publish and MIT-license included original/licensable material, with no known third-party, contributor, employer or contractual restrictions; no independent legal audit or rights grant over excluded material",
+      "security_decision": "Included in exact-tree secret/privacy/structural scan; see private review reports; no safety certification"
+    },
+    {
+      "path": "tools/research-intake/src/research_intake/resources/__init__.py",
+      "sha256": "ed1db40b0e7dcf1ffedc177bf70dacc6f292fccddf8edd729012053634147608",
+      "hash_scope": "exact bytes",
+      "decision": "reworked",
+      "origin_component": "new-release-work",
+      "transformation": "New release-specific packaging/example/test/documentation/report; no raw private chat or empirical input",
+      "rights_decision": "OWNER_ATTESTED_MIT: owner attests, to the best of their knowledge, authority to publish and MIT-license included original/licensable material, with no known third-party, contributor, employer or contractual restrictions; no independent legal audit or rights grant over excluded material",
+      "security_decision": "Included in exact-tree secret/privacy/structural scan; see private review reports; no safety certification"
+    },
+    {
+      "path": "tools/research-intake/src/research_intake/resources/config/source_registry.yaml",
+      "sha256": "3f21c8892f31ad8d7d03badc38606794e7cf902d8b4b849ce02ca9c66610a65b",
+      "hash_scope": "exact bytes",
+      "decision": "included",
+      "origin_component": "intake",
+      "transformation": "Identical config/schema copy for wheel resources; source root configs retained for user editing/tests; final UTF-8/LF, trailing whitespace and terminal-blank normalization",
+      "rights_decision": "OWNER_ATTESTED_MIT: owner attests, to the best of their knowledge, authority to publish and MIT-license included original/licensable material, with no known third-party, contributor, employer or contractual restrictions; no independent legal audit or rights grant over excluded material",
+      "security_decision": "Included in exact-tree secret/privacy/structural scan; see private review reports; no safety certification"
+    },
+    {
+      "path": "tools/research-intake/src/research_intake/resources/config/topics.yaml",
+      "sha256": "63b6d140c1b3ff52be906003422267999b46ad31b5fcaf3b7f5ada3a521a9a48",
+      "hash_scope": "exact bytes",
+      "decision": "included",
+      "origin_component": "intake",
+      "transformation": "Identical config/schema copy for wheel resources; source root configs retained for user editing/tests; final UTF-8/LF, trailing whitespace and terminal-blank normalization",
+      "rights_decision": "OWNER_ATTESTED_MIT: owner attests, to the best of their knowledge, authority to publish and MIT-license included original/licensable material, with no known third-party, contributor, employer or contractual restrictions; no independent legal audit or rights grant over excluded material",
+      "security_decision": "Included in exact-tree secret/privacy/structural scan; see private review reports; no safety certification"
+    },
+    {
+      "path": "tools/research-intake/src/research_intake/resources/schemas/human_review_batch.schema.json",
+      "sha256": "452b1dc84b2cb2c6161158e557145acbb1c8cb9ec09c55ae187f570df4120b1e",
+      "hash_scope": "exact bytes",
+      "decision": "included",
+      "origin_component": "intake",
+      "transformation": "Identical config/schema copy for wheel resources; source root configs retained for user editing/tests; final UTF-8/LF, trailing whitespace and terminal-blank normalization",
+      "rights_decision": "OWNER_ATTESTED_MIT: owner attests, to the best of their knowledge, authority to publish and MIT-license included original/licensable material, with no known third-party, contributor, employer or contractual restrictions; no independent legal audit or rights grant over excluded material",
+      "security_decision": "Included in exact-tree secret/privacy/structural scan; see private review reports; no safety certification"
+    },
+    {
+      "path": "tools/research-intake/src/research_intake/resources/schemas/normalized_item.schema.json",
+      "sha256": "8ae0c8c38a7870bc8a46c3a1cabc872075ada6a7cc60d915af45d66702c9b39e",
+      "hash_scope": "exact bytes",
+      "decision": "included",
+      "origin_component": "intake",
+      "transformation": "Identical config/schema copy for wheel resources; source root configs retained for user editing/tests; final UTF-8/LF, trailing whitespace and terminal-blank normalization",
+      "rights_decision": "OWNER_ATTESTED_MIT: owner attests, to the best of their knowledge, authority to publish and MIT-license included original/licensable material, with no known third-party, contributor, employer or contractual restrictions; no independent legal audit or rights grant over excluded material",
+      "security_decision": "Included in exact-tree secret/privacy/structural scan; see private review reports; no safety certification"
+    },
+    {
+      "path": "tools/research-intake/src/research_intake/resources/schemas/raw_response_provenance.schema.json",
+      "sha256": "4814df6475848a2685b82cbbdf9535188cf692aad2b2f17f4a76a36a64cacdb1",
+      "hash_scope": "exact bytes",
+      "decision": "included",
+      "origin_component": "intake",
+      "transformation": "Identical config/schema copy for wheel resources; source root configs retained for user editing/tests; final UTF-8/LF, trailing whitespace and terminal-blank normalization",
+      "rights_decision": "OWNER_ATTESTED_MIT: owner attests, to the best of their knowledge, authority to publish and MIT-license included original/licensable material, with no known third-party, contributor, employer or contractual restrictions; no independent legal audit or rights grant over excluded material",
+      "security_decision": "Included in exact-tree secret/privacy/structural scan; see private review reports; no safety certification"
+    },
+    {
+      "path": "tools/research-intake/src/research_intake/resources/schemas/recovery_receipt.schema.json",
+      "sha256": "4dc787122d1d5471cb2b5055abeb2455ccaeea202a991afa12629939fc80f321",
+      "hash_scope": "exact bytes",
+      "decision": "included",
+      "origin_component": "intake",
+      "transformation": "Identical config/schema copy for wheel resources; source root configs retained for user editing/tests; final UTF-8/LF, trailing whitespace and terminal-blank normalization",
+      "rights_decision": "OWNER_ATTESTED_MIT: owner attests, to the best of their knowledge, authority to publish and MIT-license included original/licensable material, with no known third-party, contributor, employer or contractual restrictions; no independent legal audit or rights grant over excluded material",
+      "security_decision": "Included in exact-tree secret/privacy/structural scan; see private review reports; no safety certification"
+    },
+    {
+      "path": "tools/research-intake/src/research_intake/resources/schemas/review_queue_item.schema.json",
+      "sha256": "88aef0b4982e11f28401e9d95874ad55672a5d9179f9950451939ac02afff616",
+      "hash_scope": "exact bytes",
+      "decision": "included",
+      "origin_component": "intake",
+      "transformation": "Identical config/schema copy for wheel resources; source root configs retained for user editing/tests; final UTF-8/LF, trailing whitespace and terminal-blank normalization",
+      "rights_decision": "OWNER_ATTESTED_MIT: owner attests, to the best of their knowledge, authority to publish and MIT-license included original/licensable material, with no known third-party, contributor, employer or contractual restrictions; no independent legal audit or rights grant over excluded material",
+      "security_decision": "Included in exact-tree secret/privacy/structural scan; see private review reports; no safety certification"
+    },
+    {
+      "path": "tools/research-intake/src/research_intake/resources/schemas/run_manifest.schema.json",
+      "sha256": "3af690fa277655bc51cc542cf99c4868b683d61db0a418463d2e5f2011bfa01e",
+      "hash_scope": "exact bytes",
+      "decision": "included",
+      "origin_component": "intake",
+      "transformation": "Identical config/schema copy for wheel resources; source root configs retained for user editing/tests; final UTF-8/LF, trailing whitespace and terminal-blank normalization",
+      "rights_decision": "OWNER_ATTESTED_MIT: owner attests, to the best of their knowledge, authority to publish and MIT-license included original/licensable material, with no known third-party, contributor, employer or contractual restrictions; no independent legal audit or rights grant over excluded material",
+      "security_decision": "Included in exact-tree secret/privacy/structural scan; see private review reports; no safety certification"
+    },
+    {
+      "path": "tools/research-intake/src/research_intake/resources/schemas/source_registry.schema.json",
+      "sha256": "57c44468900270dd553e54ddabb5f7018c215a7a4e591121e27800c7f2eccc99",
+      "hash_scope": "exact bytes",
+      "decision": "included",
+      "origin_component": "intake",
+      "transformation": "Identical config/schema copy for wheel resources; source root configs retained for user editing/tests; final UTF-8/LF, trailing whitespace and terminal-blank normalization",
+      "rights_decision": "OWNER_ATTESTED_MIT: owner attests, to the best of their knowledge, authority to publish and MIT-license included original/licensable material, with no known third-party, contributor, employer or contractual restrictions; no independent legal audit or rights grant over excluded material",
+      "security_decision": "Included in exact-tree secret/privacy/structural scan; see private review reports; no safety certification"
+    },
+    {
+      "path": "tools/research-intake/src/research_intake/resources/schemas/topics.schema.json",
+      "sha256": "602ebb4d4a1f3182c4c987f1ae0f5e4f5a72c770286640cef2a79330dde930e8",
+      "hash_scope": "exact bytes",
+      "decision": "included",
+      "origin_component": "intake",
+      "transformation": "Identical config/schema copy for wheel resources; source root configs retained for user editing/tests; final UTF-8/LF, trailing whitespace and terminal-blank normalization",
+      "rights_decision": "OWNER_ATTESTED_MIT: owner attests, to the best of their knowledge, authority to publish and MIT-license included original/licensable material, with no known third-party, contributor, employer or contractual restrictions; no independent legal audit or rights grant over excluded material",
+      "security_decision": "Included in exact-tree secret/privacy/structural scan; see private review reports; no safety certification"
+    },
+    {
+      "path": "tools/research-intake/src/research_intake/validation.py",
+      "sha256": "f7df54e84649d08dbdef6867322caf5719da8458dd7f48ff3994a1a72d7641c0",
+      "hash_scope": "exact bytes",
+      "decision": "included",
+      "origin_component": "intake",
+      "transformation": "UTF-8/LF normalization only; scheduler and pilot material excluded; final UTF-8/LF, trailing whitespace and terminal-blank normalization",
+      "rights_decision": "OWNER_ATTESTED_MIT: owner attests, to the best of their knowledge, authority to publish and MIT-license included original/licensable material, with no known third-party, contributor, employer or contractual restrictions; no independent legal audit or rights grant over excluded material",
+      "security_decision": "Included in exact-tree secret/privacy/structural scan; see private review reports; no safety certification"
+    },
+    {
+      "path": "tools/research-intake/tests/conftest.py",
+      "sha256": "e6bed634be7caa5105bfaf517ced09ccdd7007e28d13209f8e26685fe5ff86c1",
+      "hash_scope": "exact bytes",
+      "decision": "included",
+      "origin_component": "intake",
+      "transformation": "UTF-8/LF normalization only; scheduler and pilot material excluded; Added autouse socket denial fixture; existing fixtures retained; final UTF-8/LF, trailing whitespace and terminal-blank normalization",
+      "rights_decision": "OWNER_ATTESTED_MIT: owner attests, to the best of their knowledge, authority to publish and MIT-license included original/licensable material, with no known third-party, contributor, employer or contractual restrictions; no independent legal audit or rights grant over excluded material",
+      "security_decision": "Included in exact-tree secret/privacy/structural scan; see private review reports; no safety certification"
+    },
+    {
+      "path": "tools/research-intake/tests/fixtures/arxiv/malformed.xml",
+      "sha256": "c6dde56f2269fddfac7defbf04405bdb13a59a02ff4067efbe764a1f4f886b3d",
+      "hash_scope": "exact bytes",
+      "decision": "included",
+      "origin_component": "intake",
+      "transformation": "UTF-8/LF normalization only; scheduler and pilot material excluded; final UTF-8/LF, trailing whitespace and terminal-blank normalization",
+      "rights_decision": "OWNER_ATTESTED_MIT: owner attests, to the best of their knowledge, authority to publish and MIT-license included original/licensable material, with no known third-party, contributor, employer or contractual restrictions; no independent legal audit or rights grant over excluded material",
+      "security_decision": "Included in exact-tree secret/privacy/structural scan; see private review reports; no safety certification"
+    },
+    {
+      "path": "tools/research-intake/tests/fixtures/arxiv/mixed.xml",
+      "sha256": "8922b67583cfa087c69805277994b3eeadaf578371f2aca3e70fb24fd21bd908",
+      "hash_scope": "exact bytes",
+      "decision": "included",
+      "origin_component": "intake",
+      "transformation": "UTF-8/LF normalization only; scheduler and pilot material excluded; final UTF-8/LF, trailing whitespace and terminal-blank normalization",
+      "rights_decision": "OWNER_ATTESTED_MIT: owner attests, to the best of their knowledge, authority to publish and MIT-license included original/licensable material, with no known third-party, contributor, employer or contractual restrictions; no independent legal audit or rights grant over excluded material",
+      "security_decision": "Included in exact-tree secret/privacy/structural scan; see private review reports; no safety certification"
+    },
+    {
+      "path": "tools/research-intake/tests/fixtures/arxiv/version2.xml",
+      "sha256": "17094efca7f5f47d3eb1d4b3b51f0ed60e2bca84d2260e635a885b1096afe43a",
+      "hash_scope": "exact bytes",
+      "decision": "included",
+      "origin_component": "intake",
+      "transformation": "UTF-8/LF normalization only; scheduler and pilot material excluded; final UTF-8/LF, trailing whitespace and terminal-blank normalization",
+      "rights_decision": "OWNER_ATTESTED_MIT: owner attests, to the best of their knowledge, authority to publish and MIT-license included original/licensable material, with no known third-party, contributor, employer or contractual restrictions; no independent legal audit or rights grant over excluded material",
+      "security_decision": "Included in exact-tree secret/privacy/structural scan; see private review reports; no safety certification"
+    },
+    {
+      "path": "tools/research-intake/tests/test_arxiv.py",
+      "sha256": "7a4b522839775aa6557452c3da8767e52d07f59521c69dd2f21e51a822d5a953",
+      "hash_scope": "exact bytes",
+      "decision": "included",
+      "origin_component": "intake",
+      "transformation": "UTF-8/LF normalization only; scheduler and pilot material excluded; final UTF-8/LF, trailing whitespace and terminal-blank normalization",
+      "rights_decision": "OWNER_ATTESTED_MIT: owner attests, to the best of their knowledge, authority to publish and MIT-license included original/licensable material, with no known third-party, contributor, employer or contractual restrictions; no independent legal audit or rights grant over excluded material",
+      "security_decision": "Included in exact-tree secret/privacy/structural scan; see private review reports; no safety certification"
+    },
+    {
+      "path": "tools/research-intake/tests/test_catalog.py",
+      "sha256": "13ec59fe3bb1151c9d732d500d0c2120971b653223eb7704461326040e74a20e",
+      "hash_scope": "exact bytes",
+      "decision": "included",
+      "origin_component": "intake",
+      "transformation": "UTF-8/LF normalization only; scheduler and pilot material excluded; final UTF-8/LF, trailing whitespace and terminal-blank normalization",
+      "rights_decision": "OWNER_ATTESTED_MIT: owner attests, to the best of their knowledge, authority to publish and MIT-license included original/licensable material, with no known third-party, contributor, employer or contractual restrictions; no independent legal audit or rights grant over excluded material",
+      "security_decision": "Included in exact-tree secret/privacy/structural scan; see private review reports; no safety certification"
+    },
+    {
+      "path": "tools/research-intake/tests/test_cli.py",
+      "sha256": "1698d6ffd114b15a19e05eaedc13ffe10691017790cc220248391e523f7e438b",
+      "hash_scope": "exact bytes",
+      "decision": "reworked",
+      "origin_component": "intake",
+      "transformation": "Existing CLI tests pass explicit test config root; assertions retained; final UTF-8/LF, trailing whitespace and terminal-blank normalization",
+      "rights_decision": "OWNER_ATTESTED_MIT: owner attests, to the best of their knowledge, authority to publish and MIT-license included original/licensable material, with no known third-party, contributor, employer or contractual restrictions; no independent legal audit or rights grant over excluded material",
+      "security_decision": "Included in exact-tree secret/privacy/structural scan; see private review reports; no safety certification"
+    },
+    {
+      "path": "tools/research-intake/tests/test_config.py",
+      "sha256": "71d628f6868210f6aaa081fec2b0e4ae10766260b74e79b05ecc4ee29a2a1aba",
+      "hash_scope": "exact bytes",
+      "decision": "included",
+      "origin_component": "intake",
+      "transformation": "UTF-8/LF normalization only; scheduler and pilot material excluded; Updated default-path test to assert explicit new caller-local path and separation from installed config root; final UTF-8/LF, trailing whitespace and terminal-blank normalization",
+      "rights_decision": "OWNER_ATTESTED_MIT: owner attests, to the best of their knowledge, authority to publish and MIT-license included original/licensable material, with no known third-party, contributor, employer or contractual restrictions; no independent legal audit or rights grant over excluded material",
+      "security_decision": "Included in exact-tree secret/privacy/structural scan; see private review reports; no safety certification"
+    },
+    {
+      "path": "tools/research-intake/tests/test_evidence.py",
+      "sha256": "f99b6b25ad50bf657659171600281b614875149cad34c91dcdc4749d91cd9a56",
+      "hash_scope": "exact bytes",
+      "decision": "included",
+      "origin_component": "intake",
+      "transformation": "UTF-8/LF normalization only; scheduler and pilot material excluded; final UTF-8/LF, trailing whitespace and terminal-blank normalization",
+      "rights_decision": "OWNER_ATTESTED_MIT: owner attests, to the best of their knowledge, authority to publish and MIT-license included original/licensable material, with no known third-party, contributor, employer or contractual restrictions; no independent legal audit or rights grant over excluded material",
+      "security_decision": "Included in exact-tree secret/privacy/structural scan; see private review reports; no safety certification"
+    },
+    {
+      "path": "tools/research-intake/tests/test_human_review.py",
+      "sha256": "b696750b1ef49e097cc5a7ea918a1764c3b89710b86ef2a4f4077829141ce2aa",
+      "hash_scope": "exact bytes",
+      "decision": "included",
+      "origin_component": "intake",
+      "transformation": "UTF-8/LF normalization only; scheduler and pilot material excluded; final UTF-8/LF, trailing whitespace and terminal-blank normalization",
+      "rights_decision": "OWNER_ATTESTED_MIT: owner attests, to the best of their knowledge, authority to publish and MIT-license included original/licensable material, with no known third-party, contributor, employer or contractual restrictions; no independent legal audit or rights grant over excluded material",
+      "security_decision": "Included in exact-tree secret/privacy/structural scan; see private review reports; no safety certification"
+    },
+    {
+      "path": "tools/research-intake/tests/test_identity.py",
+      "sha256": "423df05431b33bc954110290d54b7eb26a7ac15ca0dc9ab843b5e064ba6dbf83",
+      "hash_scope": "exact bytes",
+      "decision": "included",
+      "origin_component": "intake",
+      "transformation": "UTF-8/LF normalization only; scheduler and pilot material excluded; final UTF-8/LF, trailing whitespace and terminal-blank normalization",
+      "rights_decision": "OWNER_ATTESTED_MIT: owner attests, to the best of their knowledge, authority to publish and MIT-license included original/licensable material, with no known third-party, contributor, employer or contractual restrictions; no independent legal audit or rights grant over excluded material",
+      "security_decision": "Included in exact-tree secret/privacy/structural scan; see private review reports; no safety certification"
+    },
+    {
+      "path": "tools/research-intake/tests/test_manifest_cutoff.py",
+      "sha256": "202f4a58ba6b542453c72147e7105a98896e2e1ec53a3b60b41f30272af0ce6f",
+      "hash_scope": "exact bytes",
+      "decision": "included",
+      "origin_component": "intake",
+      "transformation": "UTF-8/LF normalization only; scheduler and pilot material excluded; final UTF-8/LF, trailing whitespace and terminal-blank normalization",
+      "rights_decision": "OWNER_ATTESTED_MIT: owner attests, to the best of their knowledge, authority to publish and MIT-license included original/licensable material, with no known third-party, contributor, employer or contractual restrictions; no independent legal audit or rights grant over excluded material",
+      "security_decision": "Included in exact-tree secret/privacy/structural scan; see private review reports; no safety certification"
+    },
+    {
+      "path": "tools/research-intake/tests/test_normalization.py",
+      "sha256": "9f4562cc75a666d2af55d2a7d83cf8c1adcd146facac08ed7157b4baa86b40ff",
+      "hash_scope": "exact bytes",
+      "decision": "included",
+      "origin_component": "intake",
+      "transformation": "UTF-8/LF normalization only; scheduler and pilot material excluded; final UTF-8/LF, trailing whitespace and terminal-blank normalization",
+      "rights_decision": "OWNER_ATTESTED_MIT: owner attests, to the best of their knowledge, authority to publish and MIT-license included original/licensable material, with no known third-party, contributor, employer or contractual restrictions; no independent legal audit or rights grant over excluded material",
+      "security_decision": "Included in exact-tree secret/privacy/structural scan; see private review reports; no safety certification"
+    },
+    {
+      "path": "tools/research-intake/tests/test_operation_lock.py",
+      "sha256": "636fb4269380c1d49b889c7e724be25fe83c09ad6a800a7faadc40fe2a3d1591",
+      "hash_scope": "exact bytes",
+      "decision": "included",
+      "origin_component": "intake",
+      "transformation": "UTF-8/LF normalization only; scheduler and pilot material excluded; final UTF-8/LF, trailing whitespace and terminal-blank normalization",
+      "rights_decision": "OWNER_ATTESTED_MIT: owner attests, to the best of their knowledge, authority to publish and MIT-license included original/licensable material, with no known third-party, contributor, employer or contractual restrictions; no independent legal audit or rights grant over excluded material",
+      "security_decision": "Included in exact-tree secret/privacy/structural scan; see private review reports; no safety certification"
+    },
+    {
+      "path": "tools/research-intake/tests/test_pipeline.py",
+      "sha256": "cac5030e795180142dc08944f74f3f7ffb63fa67eb6be4060e00069391ec28fd",
+      "hash_scope": "exact bytes",
+      "decision": "included",
+      "origin_component": "intake",
+      "transformation": "UTF-8/LF normalization only; scheduler and pilot material excluded; final UTF-8/LF, trailing whitespace and terminal-blank normalization",
+      "rights_decision": "OWNER_ATTESTED_MIT: owner attests, to the best of their knowledge, authority to publish and MIT-license included original/licensable material, with no known third-party, contributor, employer or contractual restrictions; no independent legal audit or rights grant over excluded material",
+      "security_decision": "Included in exact-tree secret/privacy/structural scan; see private review reports; no safety certification"
+    },
+    {
+      "path": "tools/research-intake/tests/test_queues.py",
+      "sha256": "e9abc1970b22c2a39aed4c4c6719cf6c21d08be100e937eb30c14331f7d0632e",
+      "hash_scope": "exact bytes",
+      "decision": "included",
+      "origin_component": "intake",
+      "transformation": "UTF-8/LF normalization only; scheduler and pilot material excluded; final UTF-8/LF, trailing whitespace and terminal-blank normalization",
+      "rights_decision": "OWNER_ATTESTED_MIT: owner attests, to the best of their knowledge, authority to publish and MIT-license included original/licensable material, with no known third-party, contributor, employer or contractual restrictions; no independent legal audit or rights grant over excluded material",
+      "security_decision": "Included in exact-tree secret/privacy/structural scan; see private review reports; no safety certification"
+    },
+    {
+      "path": "tools/research-intake/tests/test_recovery.py",
+      "sha256": "f664e3e78e2dbf1aa74e17e82f4c4f830287d3cd388e9890e84174ec3ddb87e3",
+      "hash_scope": "exact bytes",
+      "decision": "included",
+      "origin_component": "intake",
+      "transformation": "UTF-8/LF normalization only; scheduler and pilot material excluded; final UTF-8/LF, trailing whitespace and terminal-blank normalization",
+      "rights_decision": "OWNER_ATTESTED_MIT: owner attests, to the best of their knowledge, authority to publish and MIT-license included original/licensable material, with no known third-party, contributor, employer or contractual restrictions; no independent legal audit or rights grant over excluded material",
+      "security_decision": "Included in exact-tree secret/privacy/structural scan; see private review reports; no safety certification"
+    },
+    {
+      "path": "tools/research-intake/tests/test_release_packaging.py",
+      "sha256": "cdce3c4bfb82415995778490771dd330e53f3ee75cb2b158856124b3ecaceb4c",
+      "hash_scope": "exact bytes",
+      "decision": "reworked",
+      "origin_component": "new-release-work",
+      "transformation": "New release-specific packaging/example/test/documentation/report; no raw private chat or empirical input",
+      "rights_decision": "OWNER_ATTESTED_MIT: owner attests, to the best of their knowledge, authority to publish and MIT-license included original/licensable material, with no known third-party, contributor, employer or contractual restrictions; no independent legal audit or rights grant over excluded material",
+      "security_decision": "Included in exact-tree secret/privacy/structural scan; see private review reports; no safety certification"
+    },
+    {
+      "path": "tools/research-intake/tests/test_relevance.py",
+      "sha256": "dcc23642a7db6ae628b780432e987ca8c5b273c0af576f4b1d4f7dbdb7fa672d",
+      "hash_scope": "exact bytes",
+      "decision": "included",
+      "origin_component": "intake",
+      "transformation": "UTF-8/LF normalization only; scheduler and pilot material excluded; final UTF-8/LF, trailing whitespace and terminal-blank normalization",
+      "rights_decision": "OWNER_ATTESTED_MIT: owner attests, to the best of their knowledge, authority to publish and MIT-license included original/licensable material, with no known third-party, contributor, employer or contractual restrictions; no independent legal audit or rights grant over excluded material",
+      "security_decision": "Included in exact-tree secret/privacy/structural scan; see private review reports; no safety certification"
+    },
+    {
+      "path": "tools/research-intake/tests/test_schemas.py",
+      "sha256": "7738b6c8dcfbed31d789eea2134cc24aadd57e3ad7f3f5709277a25d78aee86d",
+      "hash_scope": "exact bytes",
+      "decision": "included",
+      "origin_component": "intake",
+      "transformation": "UTF-8/LF normalization only; scheduler and pilot material excluded; final UTF-8/LF, trailing whitespace and terminal-blank normalization",
+      "rights_decision": "OWNER_ATTESTED_MIT: owner attests, to the best of their knowledge, authority to publish and MIT-license included original/licensable material, with no known third-party, contributor, employer or contractual restrictions; no independent legal audit or rights grant over excluded material",
+      "security_decision": "Included in exact-tree secret/privacy/structural scan; see private review reports; no safety certification"
+    },
+    {
+      "path": "trading_lab/__init__.py",
+      "sha256": "05c6362b754980ed7d7a0287b71f53d3187d54c5f4bd7856f6935187c0c9f543",
+      "hash_scope": "exact bytes",
+      "decision": "reworked",
+      "origin_component": "new-release-work",
+      "transformation": "New release-specific packaging/example/test/documentation/report; no raw private chat or empirical input",
+      "rights_decision": "OWNER_ATTESTED_MIT: owner attests, to the best of their knowledge, authority to publish and MIT-license included original/licensable material, with no known third-party, contributor, employer or contractual restrictions; no independent legal audit or rights grant over excluded material",
+      "security_decision": "Included in exact-tree secret/privacy/structural scan; see private review reports; no safety certification",
+      "finalization": "Version constant 0.1.0; exact reviewed implementation retained"
+    },
+    {
+      "path": "trading_lab/backtesting/__init__.py",
+      "sha256": "fd4dd411a9e776013f959d52b7c1249ee12b7440bfef0da144f794a334157547",
+      "hash_scope": "exact bytes",
+      "decision": "reworked",
+      "origin_component": "new-release-work",
+      "transformation": "New release-specific packaging/example/test/documentation/report; no raw private chat or empirical input",
+      "rights_decision": "OWNER_ATTESTED_MIT: owner attests, to the best of their knowledge, authority to publish and MIT-license included original/licensable material, with no known third-party, contributor, employer or contractual restrictions; no independent legal audit or rights grant over excluded material",
+      "security_decision": "Included in exact-tree secret/privacy/structural scan; see private review reports; no safety certification"
+    },
+    {
+      "path": "trading_lab/backtesting/mean_reversion.py",
+      "sha256": "ebdc42f6b8e246da70bd4590902176b86ed6cc5315ce4407313233486daea75e",
+      "hash_scope": "exact bytes",
+      "decision": "reworked",
+      "origin_component": "implementation",
+      "transformation": "Package imports; explicit required CSV path; removed historical __main__ launcher; strategy and execution behavior retained; final UTF-8/LF, trailing whitespace and terminal-blank normalization",
+      "rights_decision": "OWNER_ATTESTED_MIT: owner attests, to the best of their knowledge, authority to publish and MIT-license included original/licensable material, with no known third-party, contributor, employer or contractual restrictions; no independent legal audit or rights grant over excluded material",
+      "security_decision": "Included in exact-tree secret/privacy/structural scan; see private review reports; no safety certification"
+    },
+    {
+      "path": "trading_lab/backtesting/metrics.py",
+      "sha256": "39eed74f6f8b3332972cd2640f2cc70681e198b428220109679c136ec6c8bd85",
+      "hash_scope": "exact bytes",
+      "decision": "reworked",
+      "origin_component": "implementation",
+      "transformation": "AST allowlist of _trade_df, _equity_df, _metrics only; no frozen-input identities, data paths or historical runner; final UTF-8/LF, trailing whitespace and terminal-blank normalization",
+      "rights_decision": "OWNER_ATTESTED_MIT: owner attests, to the best of their knowledge, authority to publish and MIT-license included original/licensable material, with no known third-party, contributor, employer or contractual restrictions; no independent legal audit or rights grant over excluded material",
+      "security_decision": "Included in exact-tree secret/privacy/structural scan; see private review reports; no safety certification"
+    },
+    {
+      "path": "trading_lab/demo.py",
+      "sha256": "217e36912f015f1db4a5eb9151f537583ffad0c9227c6a0e53c0ea4ee9dcbcae",
+      "hash_scope": "exact bytes",
+      "decision": "reworked",
+      "origin_component": "new-release-work",
+      "transformation": "New release-specific packaging/example/test/documentation/report; no raw private chat or empirical input",
+      "rights_decision": "OWNER_ATTESTED_MIT: owner attests, to the best of their knowledge, authority to publish and MIT-license included original/licensable material, with no known third-party, contributor, employer or contractual restrictions; no independent legal audit or rights grant over excluded material",
+      "security_decision": "Included in exact-tree secret/privacy/structural scan; see private review reports; no safety certification"
+    },
+    {
+      "path": "trading_lab/features.py",
+      "sha256": "3400288d626cdc9b068ec739237497f67d081af18340f86a4ed4e662cf1222cd",
+      "hash_scope": "exact bytes",
+      "decision": "included",
+      "origin_component": "implementation",
+      "transformation": "LF normalization only; final UTF-8/LF, trailing whitespace and terminal-blank normalization",
+      "rights_decision": "OWNER_ATTESTED_MIT: owner attests, to the best of their knowledge, authority to publish and MIT-license included original/licensable material, with no known third-party, contributor, employer or contractual restrictions; no independent legal audit or rights grant over excluded material",
+      "security_decision": "Included in exact-tree secret/privacy/structural scan; see private review reports; no safety certification"
+    },
+    {
+      "path": "trading_lab/research_audit/__init__.py",
+      "sha256": "e54f5579cfedd0f435be3e112eed1759ba1da10a29dd9db4fc255e3d347aa2ef",
+      "hash_scope": "exact bytes",
+      "decision": "reworked",
+      "origin_component": "new-release-work",
+      "transformation": "New release-specific packaging/example/test/documentation/report; no raw private chat or empirical input",
+      "rights_decision": "OWNER_ATTESTED_MIT: owner attests, to the best of their knowledge, authority to publish and MIT-license included original/licensable material, with no known third-party, contributor, employer or contractual restrictions; no independent legal audit or rights grant over excluded material",
+      "security_decision": "Included in exact-tree secret/privacy/structural scan; see private review reports; no safety certification"
+    },
+    {
+      "path": "trading_lab/research_audit/evidence_identity.py",
+      "sha256": "3d1ec25bea7e282b3a7868bc1415a2bf21624ee4892111705b9d31efa98c5be4",
+      "hash_scope": "exact bytes",
+      "decision": "reworked",
+      "origin_component": "implementation",
+      "transformation": "Package naming/privacy replacement only; Git helpers remain explicit opt-in; final UTF-8/LF, trailing whitespace and terminal-blank normalization",
+      "rights_decision": "OWNER_ATTESTED_MIT: owner attests, to the best of their knowledge, authority to publish and MIT-license included original/licensable material, with no known third-party, contributor, employer or contractual restrictions; no independent legal audit or rights grant over excluded material",
+      "security_decision": "Included in exact-tree secret/privacy/structural scan; see private review reports; no safety certification"
+    },
+    {
+      "path": "trading_lab/research_audit/experiment_record.py",
+      "sha256": "e07fd6a6f0dbfc24cdb838cff2bd8433829114f739eb9b78ad1f31ea92c3ebb5",
+      "hash_scope": "exact bytes",
+      "decision": "reworked",
+      "origin_component": "implementation",
+      "transformation": "Package naming/privacy replacement only; final UTF-8/LF, trailing whitespace and terminal-blank normalization",
+      "rights_decision": "OWNER_ATTESTED_MIT: owner attests, to the best of their knowledge, authority to publish and MIT-license included original/licensable material, with no known third-party, contributor, employer or contractual restrictions; no independent legal audit or rights grant over excluded material",
+      "security_decision": "Included in exact-tree secret/privacy/structural scan; see private review reports; no safety certification"
+    },
+    {
+      "path": "trading_lab/risk_and_safety/__init__.py",
+      "sha256": "21930db45aca775028e97ee1cd862586bcaff0dbb531d0c4b279b798e8603e59",
+      "hash_scope": "exact bytes",
+      "decision": "reworked",
+      "origin_component": "new-release-work",
+      "transformation": "New release-specific packaging/example/test/documentation/report; no raw private chat or empirical input",
+      "rights_decision": "OWNER_ATTESTED_MIT: owner attests, to the best of their knowledge, authority to publish and MIT-license included original/licensable material, with no known third-party, contributor, employer or contractual restrictions; no independent legal audit or rights grant over excluded material",
+      "security_decision": "Included in exact-tree secret/privacy/structural scan; see private review reports; no safety certification"
+    },
+    {
+      "path": "trading_lab/risk_and_safety/reconciliation.py",
+      "sha256": "6684914307f45253daa9b1858723b6be2e636d28cee1f3d62ee4c7ed3ab9b1b2",
+      "hash_scope": "exact bytes",
+      "decision": "included",
+      "origin_component": "implementation",
+      "transformation": "LF normalization only; final UTF-8/LF, trailing whitespace and terminal-blank normalization",
+      "rights_decision": "OWNER_ATTESTED_MIT: owner attests, to the best of their knowledge, authority to publish and MIT-license included original/licensable material, with no known third-party, contributor, employer or contractual restrictions; no independent legal audit or rights grant over excluded material",
+      "security_decision": "Included in exact-tree secret/privacy/structural scan; see private review reports; no safety certification"
+    },
+    {
+      "path": "trading_lab/strategies/__init__.py",
+      "sha256": "59b16bebce356635b37f1fbc15518cbf0856047d442c55bbae9ceae1a323b895",
+      "hash_scope": "exact bytes",
+      "decision": "reworked",
+      "origin_component": "new-release-work",
+      "transformation": "New release-specific packaging/example/test/documentation/report; no raw private chat or empirical input",
+      "rights_decision": "OWNER_ATTESTED_MIT: owner attests, to the best of their knowledge, authority to publish and MIT-license included original/licensable material, with no known third-party, contributor, employer or contractual restrictions; no independent legal audit or rights grant over excluded material",
+      "security_decision": "Included in exact-tree secret/privacy/structural scan; see private review reports; no safety certification"
+    },
+    {
+      "path": "trading_lab/strategies/s1_downside_drift.py",
+      "sha256": "adec6c8b0c03b5207d70c58116d4e53c00b8cb271d677e9320a3306e53fad375",
+      "hash_scope": "exact bytes",
+      "decision": "reworked",
+      "origin_component": "implementation",
+      "transformation": "Extract class only; remove historical data/output driver and unused imports; explicit CSV path; NumPy 2 missing-session-key compatibility fix; frozen rules retained; final UTF-8/LF, trailing whitespace and terminal-blank normalization",
+      "rights_decision": "OWNER_ATTESTED_MIT: owner attests, to the best of their knowledge, authority to publish and MIT-license included original/licensable material, with no known third-party, contributor, employer or contractual restrictions; no independent legal audit or rights grant over excluded material",
+      "security_decision": "Included in exact-tree secret/privacy/structural scan; see private review reports; no safety certification"
+    },
+    {
+      "path": "trading_lab/strategies/x1/__init__.py",
+      "sha256": "fb90d816b06adccad09b77925b32a837bd58bb3e620ed15c2794805ebf5c6784",
+      "hash_scope": "exact bytes",
+      "decision": "reworked",
+      "origin_component": "new-release-work",
+      "transformation": "New release-specific packaging/example/test/documentation/report; no raw private chat or empirical input",
+      "rights_decision": "OWNER_ATTESTED_MIT: owner attests, to the best of their knowledge, authority to publish and MIT-license included original/licensable material, with no known third-party, contributor, employer or contractual restrictions; no independent legal audit or rights grant over excluded material",
+      "security_decision": "Included in exact-tree secret/privacy/structural scan; see private review reports; no safety certification"
+    },
+    {
+      "path": "trading_lab/strategies/x1/c.py",
+      "sha256": "d0b1b92a2f9cac895097a52e408f70e6673ad26c57925af5d354486aaba791a6",
+      "hash_scope": "exact bytes",
+      "decision": "reworked",
+      "origin_component": "x1-research",
+      "transformation": "Preserve one independent original strategy module; require explicit data path; remove historical launch/default-data helpers; no strategy retuning; final UTF-8/LF, trailing whitespace and terminal-blank normalization",
+      "rights_decision": "OWNER_ATTESTED_MIT: owner attests, to the best of their knowledge, authority to publish and MIT-license included original/licensable material, with no known third-party, contributor, employer or contractual restrictions; no independent legal audit or rights grant over excluded material",
+      "security_decision": "Included in exact-tree secret/privacy/structural scan; see private review reports; no safety certification"
+    },
+    {
+      "path": "trading_lab/strategies/x1/e.py",
+      "sha256": "c48df974346a8a32a1d660482cb48e82e3eb2acafe7e816cf5ead3c2f1f5ee1d",
+      "hash_scope": "exact bytes",
+      "decision": "reworked",
+      "origin_component": "x1-research",
+      "transformation": "Preserve one independent original strategy module; require explicit data path; remove historical launch/default-data helpers; no strategy retuning; final UTF-8/LF, trailing whitespace and terminal-blank normalization",
+      "rights_decision": "OWNER_ATTESTED_MIT: owner attests, to the best of their knowledge, authority to publish and MIT-license included original/licensable material, with no known third-party, contributor, employer or contractual restrictions; no independent legal audit or rights grant over excluded material",
+      "security_decision": "Included in exact-tree secret/privacy/structural scan; see private review reports; no safety certification"
+    },
+    {
+      "path": "trading_lab/strategies/x1/f.py",
+      "sha256": "73120f7e90112e57aeb0ee6982a39a7e5ff3340caa49a4b204ef7ccb6d19b23c",
+      "hash_scope": "exact bytes",
+      "decision": "reworked",
+      "origin_component": "x1-research",
+      "transformation": "Preserve one independent original strategy module; require explicit data path; remove historical launch/default-data helpers; no strategy retuning; final UTF-8/LF, trailing whitespace and terminal-blank normalization",
+      "rights_decision": "OWNER_ATTESTED_MIT: owner attests, to the best of their knowledge, authority to publish and MIT-license included original/licensable material, with no known third-party, contributor, employer or contractual restrictions; no independent legal audit or rights grant over excluded material",
+      "security_decision": "Included in exact-tree secret/privacy/structural scan; see private review reports; no safety certification"
+    },
+    {
+      "path": "trading_lab/strategies/x1/g.py",
+      "sha256": "d3152e3e2ab31a92987bdd818406eedcfbf57cf78308b437b48c0704908765c1",
+      "hash_scope": "exact bytes",
+      "decision": "reworked",
+      "origin_component": "x1-research",
+      "transformation": "Preserve one independent original strategy module; require explicit data path; remove historical launch/default-data helpers; no strategy retuning; final UTF-8/LF, trailing whitespace and terminal-blank normalization",
+      "rights_decision": "OWNER_ATTESTED_MIT: owner attests, to the best of their knowledge, authority to publish and MIT-license included original/licensable material, with no known third-party, contributor, employer or contractual restrictions; no independent legal audit or rights grant over excluded material",
+      "security_decision": "Included in exact-tree secret/privacy/structural scan; see private review reports; no safety certification"
+    },
+    {
+      "path": "trading_lab/strategies/x1/h.py",
+      "sha256": "60d48e008c7be0b002b8ebc67f36a1936b502c94a02ca8e677dc2fde3fad6664",
+      "hash_scope": "exact bytes",
+      "decision": "reworked",
+      "origin_component": "x1-research",
+      "transformation": "Preserve one independent original strategy module; require explicit data path; remove historical launch/default-data helpers; no strategy retuning; final UTF-8/LF, trailing whitespace and terminal-blank normalization",
+      "rights_decision": "OWNER_ATTESTED_MIT: owner attests, to the best of their knowledge, authority to publish and MIT-license included original/licensable material, with no known third-party, contributor, employer or contractual restrictions; no independent legal audit or rights grant over excluded material",
+      "security_decision": "Included in exact-tree secret/privacy/structural scan; see private review reports; no safety certification"
+    },
+    {
+      "path": "trading_lab/strategies/x1/i.py",
+      "sha256": "9bc5963966bc332b81f149c16316b79abb6331021f13db11dc44ee6311147d3c",
+      "hash_scope": "exact bytes",
+      "decision": "reworked",
+      "origin_component": "x1-research",
+      "transformation": "Preserve one independent original strategy module; require explicit data path; remove historical launch/default-data helpers; no strategy retuning; final UTF-8/LF, trailing whitespace and terminal-blank normalization",
+      "rights_decision": "OWNER_ATTESTED_MIT: owner attests, to the best of their knowledge, authority to publish and MIT-license included original/licensable material, with no known third-party, contributor, employer or contractual restrictions; no independent legal audit or rights grant over excluded material",
+      "security_decision": "Included in exact-tree secret/privacy/structural scan; see private review reports; no safety certification"
+    },
+    {
+      "path": "trading_lab/strategies/x1/l.py",
+      "sha256": "932a34fa921d8a9f379b2a733e3789c34ea5f9b7f02dceaba3d23ffde82a0324",
+      "hash_scope": "exact bytes",
+      "decision": "reworked",
+      "origin_component": "x1-research",
+      "transformation": "Preserve one independent original strategy module; require explicit data path; remove historical launch/default-data helpers; no strategy retuning; final UTF-8/LF, trailing whitespace and terminal-blank normalization",
+      "rights_decision": "OWNER_ATTESTED_MIT: owner attests, to the best of their knowledge, authority to publish and MIT-license included original/licensable material, with no known third-party, contributor, employer or contractual restrictions; no independent legal audit or rights grant over excluded material",
+      "security_decision": "Included in exact-tree secret/privacy/structural scan; see private review reports; no safety certification"
+    },
+    {
+      "path": "trading_lab/synthetic.py",
+      "sha256": "bac4ecfe6ce30d0a72224c4bdd09d867d2d8813057d636d60a58f6c3af67c43f",
+      "hash_scope": "exact bytes",
+      "decision": "reworked",
+      "origin_component": "new-release-work",
+      "transformation": "New release-specific packaging/example/test/documentation/report; no raw private chat or empirical input",
+      "rights_decision": "OWNER_ATTESTED_MIT: owner attests, to the best of their knowledge, authority to publish and MIT-license included original/licensable material, with no known third-party, contributor, employer or contractual restrictions; no independent legal audit or rights grant over excluded material",
+      "security_decision": "Included in exact-tree secret/privacy/structural scan; see private review reports; no safety certification"
+    }
+  ]
+}

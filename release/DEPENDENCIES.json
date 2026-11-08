@@ -1,0 +1,278 @@
+{
+  "python": "3.13.0",
+  "platform": "win32",
+  "scope": "validation environment; includes scanners/build tools; metadata is not a legal clearance or vulnerability audit",
+  "packages": [
+    {
+      "name": "anyio",
+      "version": "4.16.0",
+      "reported_license_expression": "MIT",
+      "reported_license_classifiers": [],
+      "distribution_status": "installed validation dependency, not vendored in candidate"
+    },
+    {
+      "name": "attrs",
+      "version": "26.1.0",
+      "reported_license_expression": "MIT",
+      "reported_license_classifiers": [],
+      "distribution_status": "installed validation dependency, not vendored in candidate"
+    },
+    {
+      "name": "certifi",
+      "version": "2026.10.23",
+      "reported_license_expression": null,
+      "reported_license_classifiers": [
+        "OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)"
+      ],
+      "distribution_status": "installed validation dependency, not vendored in candidate"
+    },
+    {
+      "name": "charset-normalizer",
+      "version": "3.5.2",
+      "reported_license_expression": null,
+      "reported_license_classifiers": [],
+      "distribution_status": "installed validation dependency, not vendored in candidate"
+    },
+    {
+      "name": "colorama",
+      "version": "0.4.6",
+      "reported_license_expression": null,
+      "reported_license_classifiers": [
+        "OSI Approved :: BSD License"
+      ],
+      "distribution_status": "installed validation dependency, not vendored in candidate"
+    },
+    {
+      "name": "detect-secrets",
+      "version": "1.5.0",
+      "reported_license_expression": null,
+      "reported_license_classifiers": [
+        "OSI Approved :: Apache Software License"
+      ],
+      "distribution_status": "installed validation dependency, not vendored in candidate"
+    },
+    {
+      "name": "exchange_calendars",
+      "version": "4.13.2",
+      "reported_license_expression": "Apache-2.0",
+      "reported_license_classifiers": [],
+      "distribution_status": "installed validation dependency, not vendored in candidate"
+    },
+    {
+      "name": "h11",
+      "version": "0.16.0",
+      "reported_license_expression": null,
+      "reported_license_classifiers": [
+        "OSI Approved :: MIT License"
+      ],
+      "distribution_status": "installed validation dependency, not vendored in candidate"
+    },
+    {
+      "name": "httpcore",
+      "version": "1.0.9",
+      "reported_license_expression": "BSD-3-Clause",
+      "reported_license_classifiers": [
+        "OSI Approved :: BSD License"
+      ],
+      "distribution_status": "installed validation dependency, not vendored in candidate"
+    },
+    {
+      "name": "httpx",
+      "version": "0.28.1",
+      "reported_license_expression": null,
+      "reported_license_classifiers": [
+        "OSI Approved :: BSD License"
+      ],
+      "distribution_status": "installed validation dependency, not vendored in candidate"
+    },
+    {
+      "name": "idna",
+      "version": "3.20",
+      "reported_license_expression": "BSD-3-Clause",
+      "reported_license_classifiers": [],
+      "distribution_status": "installed validation dependency, not vendored in candidate"
+    },
+    {
+      "name": "iniconfig",
+      "version": "2.3.1",
+      "reported_license_expression": "MIT",
+      "reported_license_classifiers": [],
+      "distribution_status": "installed validation dependency, not vendored in candidate"
+    },
+    {
+      "name": "jsonschema",
+      "version": "4.26.0",
+      "reported_license_expression": "MIT",
+      "reported_license_classifiers": [],
+      "distribution_status": "installed validation dependency, not vendored in candidate"
+    },
+    {
+      "name": "jsonschema-specifications",
+      "version": "2025.9.1",
+      "reported_license_expression": "MIT",
+      "reported_license_classifiers": [],
+      "distribution_status": "installed validation dependency, not vendored in candidate"
+    },
+    {
+      "name": "korean_lunar_calendar",
+      "version": "0.4.0",
+      "reported_license_expression": "MIT",
+      "reported_license_classifiers": [],
+      "distribution_status": "installed validation dependency, not vendored in candidate"
+    },
+    {
+      "name": "numpy",
+      "version": "2.4.2",
+      "reported_license_expression": "BSD-3-Clause AND 0BSD AND MIT AND Zlib AND CC0-1.0",
+      "reported_license_classifiers": [],
+      "distribution_status": "installed validation dependency, not vendored in candidate"
+    },
+    {
+      "name": "packaging",
+      "version": "26.3",
+      "reported_license_expression": "Apache-2.0 OR BSD-2-Clause",
+      "reported_license_classifiers": [],
+      "distribution_status": "installed validation dependency, not vendored in candidate"
+    },
+    {
+      "name": "pandas",
+      "version": "3.0.1",
+      "reported_license_expression": null,
+      "reported_license_classifiers": [
+        "OSI Approved :: BSD License"
+      ],
+      "distribution_status": "installed validation dependency, not vendored in candidate"
+    },
+    {
+      "name": "pandas_market_calendars",
+      "version": "5.4.0",
+      "reported_license_expression": null,
+      "reported_license_classifiers": [
+        "OSI Approved :: MIT License"
+      ],
+      "distribution_status": "installed validation dependency, not vendored in candidate"
+    },
+    {
+      "name": "pluggy",
+      "version": "1.7.0",
+      "reported_license_expression": null,
+      "reported_license_classifiers": [
+        "OSI Approved :: MIT License"
+      ],
+      "distribution_status": "installed validation dependency, not vendored in candidate"
+    },
+    {
+      "name": "Pygments",
+      "version": "2.21.0",
+      "reported_license_expression": "BSD-2-Clause",
+      "reported_license_classifiers": [],
+      "distribution_status": "installed validation dependency, not vendored in candidate"
+    },
+    {
+      "name": "pyluach",
+      "version": "2.3.0",
+      "reported_license_expression": null,
+      "reported_license_classifiers": [
+        "OSI Approved :: MIT License"
+      ],
+      "distribution_status": "installed validation dependency, not vendored in candidate"
+    },
+    {
+      "name": "pytest",
+      "version": "8.4.2",
+      "reported_license_expression": null,
+      "reported_license_classifiers": [
+        "OSI Approved :: MIT License"
+      ],
+      "distribution_status": "installed validation dependency, not vendored in candidate"
+    },
+    {
+      "name": "python-dateutil",
+      "version": "4.0.0",
+      "reported_license_expression": "BSD-3-Clause",
+      "reported_license_classifiers": [],
+      "distribution_status": "installed validation dependency, not vendored in candidate"
+    },
+    {
+      "name": "PyYAML",
+      "version": "6.0.3",
+      "reported_license_expression": null,
+      "reported_license_classifiers": [
+        "OSI Approved :: MIT License"
+      ],
+      "distribution_status": "installed validation dependency, not vendored in candidate"
+    },
+    {
+      "name": "referencing",
+      "version": "0.37.0",
+      "reported_license_expression": "MIT",
+      "reported_license_classifiers": [],
+      "distribution_status": "installed validation dependency, not vendored in candidate"
+    },
+    {
+      "name": "requests",
+      "version": "2.34.2",
+      "reported_license_expression": null,
+      "reported_license_classifiers": [
+        "OSI Approved :: Apache Software License"
+      ],
+      "distribution_status": "installed validation dependency, not vendored in candidate"
+    },
+    {
+      "name": "rpds-py",
+      "version": "2026.9.1",
+      "reported_license_expression": "MIT",
+      "reported_license_classifiers": [],
+      "distribution_status": "installed validation dependency, not vendored in candidate"
+    },
+    {
+      "name": "ruff",
+      "version": "0.17.4",
+      "reported_license_expression": "MIT",
+      "reported_license_classifiers": [],
+      "distribution_status": "installed validation dependency, not vendored in candidate"
+    },
+    {
+      "name": "setuptools",
+      "version": "84.2.1",
+      "reported_license_expression": "MIT",
+      "reported_license_classifiers": [],
+      "distribution_status": "installed validation dependency, not vendored in candidate"
+    },
+    {
+      "name": "toolz",
+      "version": "1.2.0",
+      "reported_license_expression": "BSD-3-Clause",
+      "reported_license_classifiers": [],
+      "distribution_status": "installed validation dependency, not vendored in candidate"
+    },
+    {
+      "name": "typing_extensions",
+      "version": "4.16.0",
+      "reported_license_expression": "PSF-2.0",
+      "reported_license_classifiers": [],
+      "distribution_status": "installed validation dependency, not vendored in candidate"
+    },
+    {
+      "name": "tzdata",
+      "version": "2026.6",
+      "reported_license_expression": null,
+      "reported_license_classifiers": [],
+      "distribution_status": "installed validation dependency, not vendored in candidate"
+    },
+    {
+      "name": "urllib3",
+      "version": "2.8.0",
+      "reported_license_expression": "MIT",
+      "reported_license_classifiers": [],
+      "distribution_status": "installed validation dependency, not vendored in candidate"
+    },
+    {
+      "name": "wheel",
+      "version": "0.48.0",
+      "reported_license_expression": "MIT",
+      "reported_license_classifiers": [],
+      "distribution_status": "installed validation dependency, not vendored in candidate"
+    }
+  ]
+}

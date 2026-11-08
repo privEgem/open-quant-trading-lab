@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema", "type": "object",
+  "required": ["schema_version", "recovery_id", "target_run_id", "start_timestamp_utc", "finish_timestamp_utc", "actions_attempted", "artifacts_validated", "artifacts_created", "database_reconciliation_performed", "manifest_classification", "post_manifest_events", "warnings", "errors", "final_recovery_status"],
+  "properties": {
+    "schema_version": {"const": 1}, "recovery_id": {"type": "string"}, "target_run_id": {"type": "string"},
+    "start_timestamp_utc": {"type": "string", "format": "date-time"}, "finish_timestamp_utc": {"type": "string", "format": "date-time"},
+    "actions_attempted": {"type": "array"}, "artifacts_validated": {"type": "array"}, "artifacts_created": {"type": "array"},
+    "database_reconciliation_performed": {"type": "boolean"},
+    "post_manifest_events": {"type": "array"},
+    "manifest_classification": {"enum": ["ALREADY_VALID", "NEWLY_RECONSTRUCTED", "MISSING_NOT_RECONSTRUCTABLE", "PRESENT_CONFLICTING_OR_INVALID"]},
+    "warnings": {"type": "array"}, "errors": {"type": "array"}, "final_recovery_status": {"enum": ["SUCCESS", "PARTIAL_SUCCESS", "FAILED"]}
+  }, "additionalProperties": true
+}

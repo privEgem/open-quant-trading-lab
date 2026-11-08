@@ -1,0 +1,137 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": ["schema_version", "run_id", "run_type", "start_timestamp_utc", "finish_timestamp_utc", "duration_seconds", "application_version", "git_commit", "python_version", "configuration_hashes", "previous_eligible_run_id", "discovery", "source_requests", "raw_artifacts", "counts", "queues", "warnings", "errors", "final_status", "incremental_predecessor_eligible", "incremental_predecessor_reason_code", "manifest_event_cutoff_id", "manifest_event_cutoff_state", "manifest_generation_mode", "manifest_published_at_utc"],
+  "properties": {
+    "schema_version": {"const": 1},
+    "run_id": {"type": "string", "minLength": 1},
+    "run_type": {"enum": ["backfill", "incremental"]},
+    "start_timestamp_utc": {"type": "string", "format": "date-time"},
+    "finish_timestamp_utc": {"type": "string", "format": "date-time"},
+    "duration_seconds": {"type": "number", "minimum": 0},
+    "application_version": {"type": "string", "minLength": 1},
+    "git_commit": {"type": ["string", "null"]},
+    "python_version": {"type": "string", "minLength": 1},
+    "configuration_hashes": {
+      "type": "object",
+      "required": ["source_registry", "topics"],
+      "properties": {
+        "source_registry": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+        "topics": {"type": "string", "pattern": "^[0-9a-f]{64}$"}
+      },
+      "additionalProperties": false
+    },
+    "previous_eligible_run_id": {"type": ["string", "null"]},
+    "discovery": {
+      "type": "object",
+      "required": ["time_basis", "interval_start_inclusive", "interval_end_exclusive", "overlap_seconds", "queries"],
+      "properties": {
+        "time_basis": {"enum": ["SUBMITTED_DATE", "UPDATED_DATE"]},
+        "interval_start_inclusive": {"type": "string", "format": "date-time"},
+        "interval_end_exclusive": {"type": "string", "format": "date-time"},
+        "overlap_seconds": {"type": "integer", "minimum": 0},
+        "queries": {"type": "array", "items": {"$ref": "#/$defs/queryState"}}
+      },
+      "additionalProperties": false
+    },
+    "source_requests": {
+      "type": "object",
+      "additionalProperties": {"$ref": "#/$defs/requestStatistics"}
+    },
+    "raw_artifacts": {"type": "array", "items": {"$ref": "#/$defs/rawArtifact"}},
+    "counts": {
+      "type": "object",
+      "required": ["received", "normalized", "malformed", "new", "updated", "unchanged", "excluded", "automatic_deduplications", "doi_collisions"],
+      "properties": {
+        "received": {"type": "integer", "minimum": 0},
+        "normalized": {"type": "integer", "minimum": 0},
+        "malformed": {"type": "integer", "minimum": 0},
+        "new": {"type": "integer", "minimum": 0},
+        "updated": {"type": "integer", "minimum": 0},
+        "unchanged": {"type": "integer", "minimum": 0},
+        "excluded": {"type": "integer", "minimum": 0},
+        "automatic_deduplications": {"type": "integer", "minimum": 0},
+        "doi_collisions": {"type": "integer", "minimum": 0}
+      },
+      "additionalProperties": false
+    },
+    "queues": {
+      "type": "object",
+      "required": ["renderer_version", "render_timestamp_utc", "markdown", "jsonl"],
+      "properties": {
+        "renderer_version": {"type": ["string", "null"]},
+        "render_timestamp_utc": {"type": ["string", "null"], "format": "date-time"},
+        "markdown": {"$ref": "#/$defs/queueArtifact"},
+        "jsonl": {"$ref": "#/$defs/queueArtifact"}
+      },
+      "additionalProperties": false
+    },
+    "warnings": {"type": "array", "items": {"$ref": "#/$defs/runEvent"}},
+    "errors": {"type": "array", "items": {"$ref": "#/$defs/runEvent"}},
+    "final_status": {"enum": ["SUCCESS", "PARTIAL_SUCCESS", "FAILED"]},
+    "incremental_predecessor_eligible": {"type": "boolean"},
+    "incremental_predecessor_reason_code": {"enum": ["ALL_QUERIES_COVERED", "QUERY_SCAN_INCOMPLETE", "QUERY_SCAN_GAP", "QUERY_FAILED", "CATALOG_NOT_COMMITTED", "DURABLE_STATE_INCOMPLETE", "NOT_FINALIZED"]},
+    "manifest_event_cutoff_id": {"type": "integer", "minimum": 0},
+    "manifest_event_cutoff_state": {"const": "FROZEN"},
+    "manifest_generation_mode": {"enum": ["ORIGINAL", "RECOVERED"]},
+    "manifest_published_at_utc": {"type": "string", "format": "date-time"}
+  },
+  "$defs": {
+    "queryState": {
+      "type": "object",
+      "required": ["run_id", "query_id", "source_id", "completion_status", "discovery_time_basis", "required_lower_boundary", "pages_attempted", "pages_succeeded", "received_count", "accepted_count", "malformed_entry_count", "exhausted_available_results", "crossed_lower_boundary", "stopped_early", "final_stop_reason", "first_request_timestamp_utc", "last_request_timestamp_utc", "last_ordering_timestamp_utc"],
+      "properties": {
+        "run_id": {"type": "string"}, "query_id": {"type": "string"}, "source_id": {"type": "string"},
+        "completion_status": {"enum": ["NOT_STARTED", "RUNNING", "COMPLETE", "INCOMPLETE", "FAILED"]},
+        "discovery_time_basis": {"enum": ["SUBMITTED_DATE", "UPDATED_DATE"]},
+        "required_lower_boundary": {"type": "string", "format": "date-time"},
+        "pages_attempted": {"type": "integer", "minimum": 0}, "pages_succeeded": {"type": "integer", "minimum": 0},
+        "received_count": {"type": "integer", "minimum": 0}, "accepted_count": {"type": "integer", "minimum": 0}, "malformed_entry_count": {"type": "integer", "minimum": 0},
+        "exhausted_available_results": {"type": "integer", "enum": [0, 1]}, "crossed_lower_boundary": {"type": "integer", "enum": [0, 1]}, "stopped_early": {"type": "integer", "enum": [0, 1]},
+        "final_stop_reason": {"enum": ["AVAILABLE_RESULTS_EXHAUSTED", "LOWER_BOUNDARY_CROSSED", "MAX_QUERY_RESULTS_REACHED", "MAX_ITEMS_REACHED", "MAX_REQUESTS_REACHED", "MAX_RUNTIME_REACHED", "PAGE_FAILURE", "QUERY_FAILURE", "CANCELLED", "NOT_STARTED"]},
+        "first_request_timestamp_utc": {"type": ["string", "null"], "format": "date-time"}, "last_request_timestamp_utc": {"type": ["string", "null"], "format": "date-time"}, "last_ordering_timestamp_utc": {"type": ["string", "null"], "format": "date-time"}
+      },
+      "additionalProperties": false
+    },
+    "requestStatistics": {
+      "type": "object",
+      "required": ["attempts", "responses", "transport_failures", "retry_events", "http_status_counts", "pages_attempted", "pages_succeeded", "received", "final_stop_reason"],
+      "properties": {
+        "attempts": {"type": "integer", "minimum": 0}, "responses": {"type": "integer", "minimum": 0}, "transport_failures": {"type": "integer", "minimum": 0}, "retry_events": {"type": "integer", "minimum": 0},
+        "http_status_counts": {"type": "object", "additionalProperties": {"type": "integer", "minimum": 0}},
+        "pages_attempted": {"type": "integer", "minimum": 0}, "pages_succeeded": {"type": "integer", "minimum": 0}, "received": {"type": "integer", "minimum": 0},
+        "final_stop_reason": {"type": "string"}
+      },
+      "additionalProperties": false
+    },
+    "rawArtifact": {
+      "type": "object",
+      "required": ["schema_version", "source_id", "query_id", "request", "response", "retrieved_at", "attempt_number", "body_path", "body_sha256", "provenance_path"],
+      "properties": {
+        "schema_version": {"const": 1}, "source_id": {"type": "string"}, "query_id": {"type": "string"}, "request": {"type": "object"}, "response": {"type": "object"},
+        "retrieved_at": {"type": "string", "format": "date-time"}, "attempt_number": {"type": "integer", "minimum": 1},
+        "body_path": {"type": "string"}, "body_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"}, "provenance_path": {"type": "string"}
+      },
+      "additionalProperties": false
+    },
+    "queueArtifact": {
+      "type": "object",
+      "required": ["path", "status", "count", "size", "sha256"],
+      "properties": {
+        "path": {"type": ["string", "null"]}, "status": {"enum": ["CREATED", "FAILED", null]}, "count": {"type": ["integer", "null"], "minimum": 0}, "size": {"type": ["integer", "null"], "minimum": 0}, "sha256": {"type": ["string", "null"], "pattern": "^[0-9a-f]{64}$"}
+      },
+      "additionalProperties": false
+    },
+    "runEvent": {
+      "type": "object",
+      "required": ["event_id", "run_id", "timestamp_utc", "severity", "event_code", "pipeline_phase", "source_id", "query_id", "context_json", "context"],
+      "properties": {
+        "event_id": {"type": "integer", "minimum": 1}, "run_id": {"type": "string"}, "timestamp_utc": {"type": "string", "format": "date-time"},
+        "severity": {"enum": ["INFO", "WARNING", "ERROR"]}, "event_code": {"type": "string"}, "pipeline_phase": {"type": "string"},
+        "source_id": {"type": ["string", "null"]}, "query_id": {"type": ["string", "null"]}, "context_json": {"type": "string"}, "context": {"type": "object"}
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}

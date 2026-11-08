@@ -1,0 +1,44 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": ["schema_version", "source_id", "query_id", "request", "response", "retrieved_at", "attempt_number", "body_path", "body_sha256"],
+  "properties": {
+    "schema_version": {"const": 1},
+    "source_id": {"type": "string", "minLength": 1},
+    "query_id": {"type": "string", "minLength": 1},
+    "request": {
+      "type": "object",
+      "required": ["method", "url", "parameters"],
+      "properties": {
+        "method": {"const": "GET"},
+        "url": {"type": "string", "format": "uri"},
+        "parameters": {"type": "object"}
+      },
+      "additionalProperties": false
+    },
+    "response": {
+      "type": "object",
+      "required": ["status", "headers"],
+      "properties": {
+        "status": {"type": "integer", "minimum": 100, "maximum": 599},
+        "headers": {
+          "type": "object",
+          "properties": {
+            "Content-Type": {"type": "string"},
+            "Content-Encoding": {"type": "string"},
+            "ETag": {"type": "string"},
+            "Last-Modified": {"type": "string"},
+            "Retry-After": {"type": "string"}
+          },
+          "additionalProperties": false
+        }
+      },
+      "additionalProperties": false
+    },
+    "retrieved_at": {"type": "string", "format": "date-time"},
+    "attempt_number": {"type": "integer", "minimum": 1},
+    "body_path": {"type": "string", "minLength": 1},
+    "body_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"}
+  },
+  "additionalProperties": false
+}

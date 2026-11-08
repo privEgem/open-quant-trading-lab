@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema", "type": "object",
+  "required": ["queue_context", "item"],
+  "properties": {
+    "queue_context": {
+      "type": "object",
+      "required": ["run_id", "queue_render_timestamp_utc", "queue_renderer_version"],
+      "properties": {
+        "run_id": {"type": "string"},
+        "queue_render_timestamp_utc": {"type": "string", "format": "date-time"},
+        "queue_renderer_version": {"type": "string"}
+      },
+      "additionalProperties": false
+    },
+    "item": {"$ref": "normalized_item.schema.json"}
+  }, "additionalProperties": false
+}

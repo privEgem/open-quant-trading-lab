@@ -1,0 +1,19 @@
+# Limitations
+
+There is no validated profitable strategy. This is not production-ready and provides no investment advice. Unit tests establish bounded software behavior, not expected returns, live fill quality or operational safety.
+
+Baseline fills use next supplied bar open, directional slippage and per-share commission. OHLC bars cannot establish within-bar price order, queue position, spread, impact, liquidity, latency or gap-through-stop fills. When both stop and target are touched, stop wins. The engine filters nonpositive volume and uses supplied bars; it is not a complete data-quality validator. Duplicate or missing intraday rows can still matter. Missing final-session evidence with a surviving baseline position raises an error. Create a new engine instance for each simulation.
+
+The baseline's legacy full-input VWAP is not session VWAP. Its defaults are class defaults, not a reconstruction of every historical locked experiment's hour/side configuration. Historical comparisons require matched inputs and settings. Demo data are artificial and have convenient complete sessions.
+
+Historical trade-log PnL in the baseline and S1 subtracts exit commission, while entry commission is deducted separately from cash. Sum of trade PnL alone can therefore overstate total cash change when entry commission is nonzero. The demo reconciles both sides explicitly. Minute Sharpe uses a simple 252×390 annualization and is descriptive; sparse/serially correlated returns can make it misleading.
+
+S1/X1 references retain older execution models: clock filters may include a 16:00 row, do not implement full holiday/early-close handling, and can skip missing exit evidence or use fallback rows. S1 can carry stale simulated state when required rows are absent; its equity clock also retains historical next-bar timing assumptions. X1-I's stop scan starts after the entry row. X1-L checks an exit-bar low before using its open as a time exit, which can use information occurring after that open. These are disclosed inherited limitations, not validated execution models.
+
+X1-G and X1-L require an explicit `vwap` input column. The synthetic tests compute a session close×volume VWAP for that field; this does not establish the provenance or equivalence of historical inputs. X1-G reports one-share price PnL; X1-L uses fixed 10,000 notional and fractional shares. Other X1 references use risk/cash/notional sizing. Their headline numbers are not directly comparable. Comparator tests cover no-setup rejection; they do not comprehensively validate profitable/stop/target branches for C/E.
+
+Reconciliation is pure reference code with test fakes. It has no broker, persistence integration, restart recovery deployment, full system audit or production certification. An entry-allowed classification cannot authorize an order.
+
+Intake stores metadata and abstract text during explicit online use. A discovered record is not reviewed scientific evidence. Its heuristics can miss useful work, score irrelevant papers highly or encounter changed API behavior. Human review remains authoritative. A single-process rate limiter does not coordinate independent machines; online users must honor aggregate service limits. There is no authentication or hosted multi-user security model for the local catalog.
+
+MIT coverage of the included original/licensable material rests on the owner's good-faith rights attestation, not an independent legal audit. Excluded data and separately installed dependencies retain their own terms. Private vulnerability reporting must be verified available before sensitive reports are submitted; public issues are not private. No clean scanner result establishes legal ownership or production security. No broker, VPS or scheduler state was queried; operational shutdown is unverified.
